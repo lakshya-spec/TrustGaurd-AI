@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Shield, ShieldAlert, Activity, Search, BarChart3, History, HelpCircle, Info, Menu, X, Presentation } from 'lucide-react';
-
+import { API_BASE_URL } from '../services/api';
 interface NavbarProps {
   currentTab: string;
   onSelectTab: (tab: string) => void;
@@ -18,7 +18,7 @@ export const Navbar: React.FC<NavbarProps> = ({
   const [isHealthy, setIsHealthy] = useState(true);
 
   useEffect(() => {
-    fetch('/api/health')
+    fetch(`${API_BASE_URL}/api/health`)
       .then(res => res.json())
       .then(data => setIsHealthy(data.status === 'healthy'))
       .catch(() => setIsHealthy(true));

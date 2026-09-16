@@ -1,7 +1,8 @@
 import { InvestigationResult, InvestigationStats } from '../types.js';
+export const API_BASE_URL = 'https://trustgaurd-ai.onrender.com';
 
 export async function analyzeMessageApi(content: string): Promise<InvestigationResult> {
-  const res = await fetch('/api/analyze/message', {
+  const res = await fetch(`${API_BASE_URL}/api/analyze/message`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ content }),
@@ -14,7 +15,7 @@ export async function analyzeMessageApi(content: string): Promise<InvestigationR
 }
 
 export async function analyzeUrlApi(url: string): Promise<InvestigationResult> {
-  const res = await fetch('/api/analyze/url', {
+  const res = await fetch(`${API_BASE_URL}/api/analyze/url`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ url }),
@@ -31,7 +32,7 @@ export async function analyzeScreenshotApi(
   mimeType: string = 'image/jpeg',
   note: string = ''
 ): Promise<InvestigationResult> {
-  const res = await fetch('/api/analyze/screenshot', {
+  const res = await fetch(`${API_BASE_URL}/api/analyze/screenshot`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ imageBase64, mimeType, note }),
@@ -44,7 +45,7 @@ export async function analyzeScreenshotApi(
 }
 
 export async function fetchInvestigations(): Promise<InvestigationResult[]> {
-  const res = await fetch('/api/investigations');
+  const res = await fetch(`${API_BASE_URL}/api/investigations`);
   if (!res.ok) {
     throw new Error('Failed to fetch investigations');
   }
@@ -52,7 +53,7 @@ export async function fetchInvestigations(): Promise<InvestigationResult[]> {
 }
 
 export async function fetchInvestigationById(id: string): Promise<InvestigationResult> {
-  const res = await fetch(`/api/investigations/${id}`);
+  const res = await fetch(`${API_BASE_URL}/api/investigations/${id}`);
   if (!res.ok) {
     throw new Error('Failed to fetch investigation details');
   }
@@ -60,7 +61,7 @@ export async function fetchInvestigationById(id: string): Promise<InvestigationR
 }
 
 export async function deleteInvestigationApi(id: string): Promise<void> {
-  const res = await fetch(`/api/investigations/${id}`, {
+  const res = await fetch(`${API_BASE_URL}/api/investigations/${id}`, {
     method: 'DELETE',
   });
   if (!res.ok) {
@@ -69,7 +70,7 @@ export async function deleteInvestigationApi(id: string): Promise<void> {
 }
 
 export async function fetchStatsApi(): Promise<InvestigationStats> {
-  const res = await fetch('/api/stats');
+  const res = await fetch(`${API_BASE_URL}/api/stats`);
   if (!res.ok) {
     throw new Error('Failed to fetch stats');
   }
@@ -77,7 +78,7 @@ export async function fetchStatsApi(): Promise<InvestigationStats> {
 }
 
 export async function resetDemoApi(): Promise<void> {
-  const res = await fetch('/api/investigations/reset-demo', {
+  const res = await fetch(`${API_BASE_URL}/api/investigations/reset-demo`, {
     method: 'POST',
   });
   if (!res.ok) {
