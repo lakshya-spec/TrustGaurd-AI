@@ -1,0 +1,6 @@
+{
+  "name": "TrustGuard AI",
+  "description": "AI-powered digital fraud and scam investigator detecting phishing, suspicious URLs, impersonation, and fraudulent digital content.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

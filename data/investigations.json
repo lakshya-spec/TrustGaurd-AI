@@ -1,0 +1,4629 @@
+[
+  {
+    "id": "tg-1789377121380-3ocof",
+    "timestamp": "2026-09-14T09:12:01.380Z",
+    "inputType": "url",
+    "inputData": "http://Kx10.in/FINPLO/h1SsEB",
+    "risk_score": 25,
+    "risk_level": "SAFE",
+    "category": "Legitimate / Safe",
+    "confidence": 75,
+    "summary": "TrustGuard evaluated this url via multi-agent heuristic inspection (AI panel temporarily unavailable). Detected 1 significant fraud indicators.",
+    "red_flags": [
+      {
+        "id": "rf-url",
+        "title": "Deceptive or High-Risk Link",
+        "severity": "CRITICAL",
+        "explanation": "Link exhibits high-risk indicators (Unencrypted HTTP protocol). Likely designed to mimic official portals to harvest credentials.",
+        "tag": "Phishing Link"
+      }
+    ],
+    "evidence": [
+      "URL contains suspicious attributes: Unencrypted HTTP protocol"
+    ],
+    "recommendations": [
+      "No critical threat markers detected. The content matches normal communication patterns.",
+      "As a routine security hygiene practice, always verify sensitive financial requests directly.",
+      "Keep your device security software and mobile operating system updated."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": false,
+        "manipulationTactics": [
+          "None identified"
+        ],
+        "sentiment": "Neutral",
+        "summary": "Tone appears normal with no obvious psychological coercion."
+      },
+      "urlInvestigator": {
+        "hasUrl": true,
+        "domain": "http://Kx10.in/FINPLO/h1SsEB",
+        "isHttps": false,
+        "domainMismatch": true,
+        "suspiciousTld": true,
+        "summary": "URL points to an unofficial or spoofed domain designed to deceive users."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": null,
+        "financialCoercion": false,
+        "credentialHarvesting": false,
+        "summary": "No specific corporate brand identity claimed."
+      },
+      "riskAnalyst": {
+        "baseScore": 25,
+        "ruleSignals": [
+          {
+            "rule": "Suspicious Domain / Link Detected",
+            "points": 25
+          }
+        ],
+        "totalCalculated": 25
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This communication appears benign, with no typical scam patterns identified.",
+        "actionAdvice": "Verify through official customer support if you suspect any irregularities."
+      }
+    },
+    "timelineMs": 10698,
+    "engineUsed": "Rule-Based Engine (Demo / Fallback)"
+  },
+  {
+    "id": "tg-1789377084042-qsfpk",
+    "timestamp": "2026-09-14T09:11:24.042Z",
+    "inputType": "text",
+    "inputData": "Up to Rs.70,000 is ready to be credited. EMI from Rs.1000. Just complete your 2-min KYC - http://Kx10.in/FINPLO/h1SsEB FinVen",
+    "risk_score": 71,
+    "risk_level": "SUSPICIOUS",
+    "category": "KYC Scam",
+    "confidence": 95,
+    "summary": "This message is a fraudulent KYC scam designed to lure victims with pre-approved loans of up to Rs. 70,000 to harvest personal and financial details via an unencrypted, suspicious link.",
+    "red_flags": [
+      {
+        "id": "rf-kyc",
+        "title": "Urgent KYC Verification Pretext",
+        "severity": "HIGH",
+        "explanation": "Uses KYC / PAN / Aadhaar compliance as a fraudulent pretext to extract confidential identity documents.",
+        "tag": "KYC Fraud"
+      },
+      {
+        "id": "rf-url",
+        "title": "Deceptive or High-Risk Link",
+        "severity": "CRITICAL",
+        "explanation": "Link exhibits high-risk indicators (Unencrypted HTTP protocol). Likely designed to mimic official portals to harvest credentials.",
+        "tag": "Phishing Link"
+      },
+      {
+        "id": "ai-wx1w9a9",
+        "title": "Unsolicited Loan Offer Lure",
+        "severity": "HIGH",
+        "explanation": "Promises pre-approved credit of Rs. 70,000 with minimal conditions to entice immediate action.",
+        "tag": "Financial Enticement"
+      },
+      {
+        "id": "ai-vpxk9ro",
+        "title": "Suspicious Non-HTTPS Link",
+        "severity": "CRITICAL",
+        "explanation": "The link uses unencrypted HTTP (http://Kx10.in/...) instead of secure HTTPS, exposing sensitive data.",
+        "tag": "Insecure Protocol"
+      },
+      {
+        "id": "ai-ujzznyj",
+        "title": "Unverified / Mismatched Domain",
+        "severity": "CRITICAL",
+        "explanation": "The message claims to be from 'FinVen', but uses an obscure domain shortener/host (Kx10.in) rather than an official financial service domain.",
+        "tag": "Domain Spoofing"
+      },
+      {
+        "id": "ai-gn3rzn4",
+        "title": "Fake KYC Credential Harvesting",
+        "severity": "HIGH",
+        "explanation": "Prompting users to complete a '2-min KYC' is a standard technique to steal identity documents (PAN, Aadhaar) and banking credentials.",
+        "tag": "Credential Harvesting"
+      }
+    ],
+    "evidence": [
+      "Text claims instant approval of Rs.70,000 with minimal 2-minute KYC.",
+      "URL provided uses HTTP protocol: http://Kx10.in/FINPLO/h1SsEB.",
+      "Domain 'Kx10.in' is not affiliated with any legitimate bank or registered financial entity.",
+      "Exploits regulatory KYC compliance as an urgency trigger",
+      "URL contains suspicious attributes: Unencrypted HTTP protocol"
+    ],
+    "recommendations": [
+      "Pause before responding — verify the identity of the sender through a known, independent phone number.",
+      "Avoid sharing any personal identifiable information (PAN, Aadhaar, DOB, address).",
+      "If this is about an alleged order or service issue, check your official account portal separately.",
+      "Inspect the sending email address or phone number for subtle spelling alterations."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": true,
+        "manipulationTactics": [
+          "Financial Greed / Enticement",
+          "Artificial Ease (2-min KYC)",
+          "Low EMI bait"
+        ],
+        "sentiment": "Enticing and opportunistic",
+        "summary": "The sender uses the lure of instant credit (Rs. 70,000) and low EMIs to trigger impulsivity and bypass user caution."
+      },
+      "urlInvestigator": {
+        "hasUrl": true,
+        "domain": "kx10.in",
+        "isHttps": false,
+        "domainMismatch": true,
+        "suspiciousTld": false,
+        "summary": "The link uses an unsecure HTTP connection and an unknown/shortened domain (kx10.in) that does not match any official lender."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": "FinVen / Financial Service Provider",
+        "financialCoercion": false,
+        "credentialHarvesting": true,
+        "summary": "The attack impersonates a financial service named 'FinVen' to perform identity and credential harvesting under the guise of an easy KYC verification."
+      },
+      "riskAnalyst": {
+        "baseScore": 40,
+        "ruleSignals": [
+          {
+            "rule": "KYC Verification Pretext",
+            "points": 15
+          },
+          {
+            "rule": "Suspicious Domain / Link Detected",
+            "points": 25
+          }
+        ],
+        "totalCalculated": 71
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This message is a fake loan trap. It promises a loan of Rs. 70,000 if you complete a quick KYC, but the link leads to an unsecure, fake site designed to steal your personal information and money.",
+        "actionAdvice": "Ignore and delete the message. Do not open the link or fill out any KYC forms."
+      }
+    },
+    "timelineMs": 8892,
+    "engineUsed": "Gemini 3.6 Flash (AI Panel)"
+  },
+  {
+    "id": "tg-1789377052546-eykwt",
+    "timestamp": "2026-09-14T09:10:52.546Z",
+    "inputType": "text",
+    "inputData": "Buy Call Update: Our Call on Cropster Agro Ltd is already up 15% from recommended price.\nBuy or Add more Shares and hold till Target of 25\nDorwal Traders",
+    "risk_score": 53,
+    "risk_level": "SUSPICIOUS",
+    "category": "Investment Scam",
+    "confidence": 92,
+    "summary": "This message exhibits clear patterns of an unsolicited stock 'pump-and-dump' scheme aimed at artificially driving up trading volume and share price.",
+    "red_flags": [
+      {
+        "id": "ai-jdbksdj",
+        "title": "Unsolicited Stock Recommendation",
+        "severity": "HIGH",
+        "explanation": "Receiving unverified investment tips via mass text messages is a primary tactic in market manipulation scams.",
+        "tag": "PUMP_AND_DUMP"
+      },
+      {
+        "id": "ai-hgwia8r",
+        "title": "FOMO & Price Target Manipulation",
+        "severity": "HIGH",
+        "explanation": "Promising specific return targets ('Target of 25') and boasting about past returns ('already up 15%') creates false urgency and greed.",
+        "tag": "FINANCIAL_MANIPULATION"
+      },
+      {
+        "id": "ai-nu4hm7t",
+        "title": "Unregistered Stock Entity",
+        "severity": "MEDIUM",
+        "explanation": "Promotions from entities like 'Dorwal Traders' without official regulatory disclosure (e.g., SEBI/SEC registration) pose severe financial risks.",
+        "tag": "UNREGULATED_ADVISORY"
+      }
+    ],
+    "evidence": [
+      "Unsolicited recommendation to buy/add shares of 'Cropster Agro Ltd'",
+      "Specific claims of artificial targets ('Target of 25') and past gains ('up 15%')",
+      "Message issued by unverified entity 'Dorwal Traders'"
+    ],
+    "recommendations": [
+      "Pause before responding — verify the identity of the sender through a known, independent phone number.",
+      "Avoid sharing any personal identifiable information (PAN, Aadhaar, DOB, address).",
+      "If this is about an alleged order or service issue, check your official account portal separately.",
+      "Inspect the sending email address or phone number for subtle spelling alterations."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": true,
+        "manipulationTactics": [
+          "Fear of Missing Out (FOMO)",
+          "False Profit Guarantees",
+          "Artificial Market Hype"
+        ],
+        "sentiment": "Promotional",
+        "summary": "The sender relies on greed and urgency by claiming the stock is already rising and setting a concrete future target price."
+      },
+      "urlInvestigator": {
+        "hasUrl": false,
+        "domain": "",
+        "isHttps": false,
+        "domainMismatch": false,
+        "suspiciousTld": false,
+        "summary": "No web link or URL was contained in the provided text."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": "Registered Financial Advisor",
+        "financialCoercion": true,
+        "credentialHarvesting": false,
+        "summary": "The pattern matches penny stock manipulation where promoters dump their own shares once retail buyers drive up the stock price."
+      },
+      "riskAnalyst": {
+        "baseScore": 0,
+        "ruleSignals": [],
+        "totalCalculated": 53
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This message is a fraudulent stock tip designed to trick people into buying shares of 'Cropster Agro Ltd' to inflate its price. Once enough people buy, the scammers sell off their stock for profit, causing the price to crash and leaving investors with big losses.",
+        "actionAdvice": "Ignore and delete the message. Never make financial investments based on unsolicited texts or unofficial trading groups."
+      }
+    },
+    "timelineMs": 13172,
+    "engineUsed": "Gemini 3.6 Flash (AI Panel)"
+  },
+  {
+    "id": "tg-1789322812164-gi1cm",
+    "timestamp": "2026-09-13T18:06:52.164Z",
+    "inputType": "text",
+    "inputData": "Up to Rs.70,000 is ready to be credited. EMI from Rs.1000. Just complete your 2-min KYC - http://Kx10.in/FINPLO/h1SsEB FinVen",
+    "risk_score": 72,
+    "risk_level": "SUSPICIOUS",
+    "category": "KYC Scam",
+    "confidence": 98,
+    "summary": "This message is a classic KYC phishing scam baiting users with an easy credit/loan offer of Rs.70,000. It directs victims to an insecure, suspicious third-party URL to harvest personal and financial details under the guise of completing a '2-minute KYC'.",
+    "red_flags": [
+      {
+        "id": "rf-kyc",
+        "title": "Urgent KYC Verification Pretext",
+        "severity": "HIGH",
+        "explanation": "Uses KYC / PAN / Aadhaar compliance as a fraudulent pretext to extract confidential identity documents.",
+        "tag": "KYC Fraud"
+      },
+      {
+        "id": "rf-url",
+        "title": "Deceptive or High-Risk Link",
+        "severity": "CRITICAL",
+        "explanation": "Link exhibits high-risk indicators (Unencrypted HTTP protocol). Likely designed to mimic official portals to harvest credentials.",
+        "tag": "Phishing Link"
+      },
+      {
+        "id": "ai-3qfim18",
+        "title": "Insecure HTTP Link",
+        "severity": "CRITICAL",
+        "explanation": "The link uses unencrypted 'http://' instead of secure 'https://', making any submitted personal information vulnerable to interception.",
+        "tag": "SECURITY_EXPOSURE"
+      },
+      {
+        "id": "ai-27g9dzk",
+        "title": "Suspicious / Generic Shortened Domain",
+        "severity": "CRITICAL",
+        "explanation": "The domain 'Kx10.in' does not belong to any recognized bank, official financial institution, or registered NBFC.",
+        "tag": "DOMAIN_SPOOFING"
+      },
+      {
+        "id": "ai-npzp92l",
+        "title": "Financial Baiting & Low Friction Lure",
+        "severity": "HIGH",
+        "explanation": "Promising instant credit of Rs.70,000 with minimal effort ('2-min KYC') is a standard psychological trap used by predatory lenders and identity thieves.",
+        "tag": "BAIT_TACTIC"
+      },
+      {
+        "id": "ai-d8pz8cx",
+        "title": "KYC Data Harvesting",
+        "severity": "HIGH",
+        "explanation": "Scammers collect identity verification documents (Aadhaar, PAN, bank details) via unauthorized web links for identity theft or fraudulent loans.",
+        "tag": "CREDENTIAL_HARVESTING"
+      }
+    ],
+    "evidence": [
+      "Unsolicited offer claiming Rs.70,000 ready to be credited.",
+      "Promotional lure of low EMI starting from Rs.1000.",
+      "Explicit direction to complete KYC via insecure URL: http://Kx10.in/FINPLO/h1SsEB.",
+      "Non-institutional brand name 'FinVen' combined with suspicious domain registration.",
+      "Exploits regulatory KYC compliance as an urgency trigger",
+      "URL contains suspicious attributes: Unencrypted HTTP protocol"
+    ],
+    "recommendations": [
+      "Pause before responding — verify the identity of the sender through a known, independent phone number.",
+      "Avoid sharing any personal identifiable information (PAN, Aadhaar, DOB, address).",
+      "If this is about an alleged order or service issue, check your official account portal separately.",
+      "Inspect the sending email address or phone number for subtle spelling alterations."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": false,
+        "manipulationTactics": [
+          "Financial Enticement",
+          "Low Friction Lure (2-min KYC)",
+          "Unsolicited Credit Offer"
+        ],
+        "sentiment": "Enticing",
+        "summary": "The message attempts to lure the recipient using high-reward financial bait ('Rs. 70,000 ready') and minimizes perceived effort by claiming KYC takes only 2 minutes."
+      },
+      "urlInvestigator": {
+        "hasUrl": true,
+        "domain": "Kx10.in",
+        "isHttps": false,
+        "domainMismatch": true,
+        "suspiciousTld": false,
+        "summary": "The link uses an unencrypted HTTP protocol and a suspicious domain (Kx10.in) completely unrelated to any legitimate banking or financial entity."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": "FinVen / Generic NBFC Loan Provider",
+        "financialCoercion": false,
+        "credentialHarvesting": true,
+        "summary": "The scam aims to harvest personal identity credentials and bank information under the pretext of instant credit approval."
+      },
+      "riskAnalyst": {
+        "baseScore": 40,
+        "ruleSignals": [
+          {
+            "rule": "KYC Verification Pretext",
+            "points": 15
+          },
+          {
+            "rule": "Suspicious Domain / Link Detected",
+            "points": 25
+          }
+        ],
+        "totalCalculated": 72
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This text message is a fake loan offer designed to steal your identity and financial information. Clicking the link and providing your KYC details will put your personal data and bank accounts at severe risk.",
+        "actionAdvice": "Ignore and delete the message immediately. Do not open the link or enter any personal details."
+      }
+    },
+    "timelineMs": 12387,
+    "engineUsed": "Gemini 3.6 Flash (AI Panel)"
+  },
+  {
+    "id": "tg-1789321956431-pmi2n",
+    "timestamp": "2026-09-13T17:52:36.431Z",
+    "inputType": "text",
+    "inputData": "Up to Rs.70,000 is ready to be credited. EMI from Rs.1000. Just complete your 2-min KYC - http://Kx10.in/FINPLO/h1SsEB FinVen",
+    "risk_score": 71,
+    "risk_level": "SUSPICIOUS",
+    "category": "KYC Scam",
+    "confidence": 95,
+    "summary": "High-risk fraudulent message promising pre-approved credit (Rs.70,000) to lure victims into submitting sensitive identity documents (KYC) on an unencrypted, suspicious URL.",
+    "red_flags": [
+      {
+        "id": "rf-kyc",
+        "title": "Urgent KYC Verification Pretext",
+        "severity": "HIGH",
+        "explanation": "Uses KYC / PAN / Aadhaar compliance as a fraudulent pretext to extract confidential identity documents.",
+        "tag": "KYC Fraud"
+      },
+      {
+        "id": "rf-url",
+        "title": "Deceptive or High-Risk Link",
+        "severity": "CRITICAL",
+        "explanation": "Link exhibits high-risk indicators (Unencrypted HTTP protocol). Likely designed to mimic official portals to harvest credentials.",
+        "tag": "Phishing Link"
+      },
+      {
+        "id": "ai-0osgm5f",
+        "title": "Unsecure and Suspicious Domain",
+        "severity": "CRITICAL",
+        "explanation": "The link uses an unencrypted HTTP protocol (http://Kx10.in) pointing to an unknown, generic domain rather than an official banking or registered NBFC website.",
+        "tag": "Phishing Link"
+      },
+      {
+        "id": "ai-79ogsur",
+        "title": "Unrealistic Financial Bait",
+        "severity": "HIGH",
+        "explanation": "Promises pre-approved credit of up to Rs. 70,000 without prior loan application or credit checks.",
+        "tag": "Financial Baiting"
+      },
+      {
+        "id": "ai-iny0qp8",
+        "title": "Artificial Urgency & Easy KYC Trap",
+        "severity": "HIGH",
+        "explanation": "Claims KYC can be completed in just '2 minutes' via an unofficial link to induce quick action without verification.",
+        "tag": "KYC Harvesting"
+      }
+    ],
+    "evidence": [
+      "Unencrypted HTTP link provided: http://Kx10.in/FINPLO/h1SsEB",
+      "Domain 'Kx10.in' does not correspond to any verified financial institution or NBFC",
+      "Unsolicited loan offer of Rs.70,000 with low EMI bait (Rs.1000)",
+      "Exploits regulatory KYC compliance as an urgency trigger",
+      "URL contains suspicious attributes: Unencrypted HTTP protocol"
+    ],
+    "recommendations": [
+      "Pause before responding — verify the identity of the sender through a known, independent phone number.",
+      "Avoid sharing any personal identifiable information (PAN, Aadhaar, DOB, address).",
+      "If this is about an alleged order or service issue, check your official account portal separately.",
+      "Inspect the sending email address or phone number for subtle spelling alterations."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": true,
+        "manipulationTactics": [
+          "Financial Baiting",
+          "Instant Gratification",
+          "Low EMI Lure"
+        ],
+        "sentiment": "Persuasive and Urgency-inducing",
+        "summary": "Employs financial bait and quick turnaround promises ('2-min KYC') to bypass rational assessment."
+      },
+      "urlInvestigator": {
+        "hasUrl": true,
+        "domain": "Kx10.in",
+        "isHttps": false,
+        "domainMismatch": true,
+        "suspiciousTld": false,
+        "summary": "The link points to an unsecure (HTTP) domain ('Kx10.in') that lacks official branding and exhibits classic shortened/obscured domain traits."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": "Generic NBFC / Financial Service Provider (FinVen)",
+        "financialCoercion": false,
+        "credentialHarvesting": true,
+        "summary": "Attempts to harvest identity credentials and personal data under the pretense of pre-approved loan disbursement."
+      },
+      "riskAnalyst": {
+        "baseScore": 40,
+        "ruleSignals": [
+          {
+            "rule": "KYC Verification Pretext",
+            "points": 15
+          },
+          {
+            "rule": "Suspicious Domain / Link Detected",
+            "points": 25
+          }
+        ],
+        "totalCalculated": 71
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This message is a scam designed to steal your personal and financial information by falsely claiming you have Rs. 70,000 ready for transfer upon completing a quick online KYC.",
+        "actionAdvice": "Do not open the link or enter any personal details. Delete the message, block the number, and report it to cybercrime authorities if necessary."
+      }
+    },
+    "timelineMs": 10249,
+    "engineUsed": "Gemini 3.6 Flash (AI Panel)"
+  },
+  {
+    "id": "tg-1789321907001-am0ni",
+    "timestamp": "2026-09-13T17:51:47.001Z",
+    "inputType": "text",
+    "inputData": "Hey, are we still meeting tomorrow at 5 PM for the design review? Let me know if you need to reschedule or share any notes beforehand.",
+    "risk_score": 0,
+    "risk_level": "SAFE",
+    "category": "Legitimate / Safe",
+    "confidence": 98,
+    "summary": "This message is a routine meeting confirmation check-in regarding a design review. It contains no suspicious elements, urgency, links, or demands for sensitive information.",
+    "red_flags": [],
+    "evidence": [
+      "No suspicious links or attachments found.",
+      "No financial demands or request for personal/credential information.",
+      "Lacks psychological manipulation or artificial urgency."
+    ],
+    "recommendations": [
+      "No critical threat markers detected. The content matches normal communication patterns.",
+      "As a routine security hygiene practice, always verify sensitive financial requests directly.",
+      "Keep your device security software and mobile operating system updated."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": false,
+        "manipulationTactics": [],
+        "sentiment": "Friendly/Professional",
+        "summary": "Standard business/personal scheduling message without any psychological manipulation tactics."
+      },
+      "urlInvestigator": {
+        "hasUrl": false,
+        "domain": "N/A",
+        "isHttps": false,
+        "domainMismatch": false,
+        "suspiciousTld": false,
+        "summary": "No domain or web links detected in the message."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": null,
+        "financialCoercion": false,
+        "credentialHarvesting": false,
+        "summary": "Message fits benign professional communication context."
+      },
+      "riskAnalyst": {
+        "baseScore": 0,
+        "ruleSignals": [
+          {
+            "rule": "Benign Conversational Marker",
+            "points": -20
+          }
+        ],
+        "totalCalculated": 0
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This message appears entirely safe and is simply asking to confirm a meeting schedule.",
+        "actionAdvice": "You can safely reply to reschedule or confirm your meeting as appropriate."
+      }
+    },
+    "timelineMs": 8216,
+    "engineUsed": "Gemini 3.6 Flash (AI Panel)"
+  },
+  {
+    "id": "tg-1789319871611-tm6a5",
+    "timestamp": "2026-09-13T17:17:51.611Z",
+    "inputType": "text",
+    "inputData": "Congratulations! You have won ₹25,00,000 in the KBC lucky draw. Pay ₹4,999 registration fee immediately to claim your prize via UPI to winner@okaxis",
+    "risk_score": 80,
+    "risk_level": "HIGH",
+    "category": "Lottery/Prize Scam",
+    "confidence": 75,
+    "summary": "TrustGuard evaluated this text via multi-agent heuristic inspection (AI panel temporarily unavailable). Detected 4 significant fraud indicators.",
+    "red_flags": [
+      {
+        "id": "rf-urgency",
+        "title": "Urgency Manipulation",
+        "severity": "HIGH",
+        "explanation": "Uses psychological pressure words (immediately) to force hasty decisions without verification.",
+        "tag": "Psychological"
+      },
+      {
+        "id": "rf-payment",
+        "title": "Unverified Payment Demand",
+        "severity": "HIGH",
+        "explanation": "Requests upfront payment or money transfer (pay, upi) under a pretext or processing fee.",
+        "tag": "Financial"
+      },
+      {
+        "id": "rf-impersonation",
+        "title": "Brand / Authority Impersonation",
+        "severity": "HIGH",
+        "explanation": "Claims affiliation with recognized brand or institution (AXIS).",
+        "tag": "Identity Spoofing"
+      },
+      {
+        "id": "rf-prize",
+        "title": "Lottery / Prize Bait",
+        "severity": "HIGH",
+        "explanation": "Promises high rewards, unprompted lottery winnings, or lucrative windfalls requiring upfront fees or data entry.",
+        "tag": "Social Engineering"
+      }
+    ],
+    "evidence": [
+      "Detected artificial urgency phrasing designed to induce panic",
+      "Demands financial transaction or advance processing fee",
+      "Cites recognized institution (AXIS) without legitimate provenance",
+      "Offers unprompted high-value prize or lucky draw reward",
+      "Multiple concurrent fraud indicators detected across urgency, credentials, and domain"
+    ],
+    "recommendations": [
+      "Do not click any embedded links or download attachments from this sender.",
+      "Never disclose your OTP, PIN, password, or UPI MPIN to anyone under any circumstance.",
+      "Do not transfer money or pay \"processing fees\" to unlock accounts or claim deliveries.",
+      "Block the sender on your messaging platform or phone dialer.",
+      "Report the message to national cyber crime authorities (e.g., cybercrime.gov.in / 1930 in India).",
+      "Contact the official customer support directly via their verified website or app."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": true,
+        "manipulationTactics": [
+          "Time Pressure",
+          "Panic Inducement"
+        ],
+        "sentiment": "High Urgency",
+        "summary": "Linguistic analysis detected overt urgency and emotional manipulation tactics."
+      },
+      "urlInvestigator": {
+        "hasUrl": false,
+        "domain": "None detected",
+        "isHttps": false,
+        "domainMismatch": false,
+        "suspiciousTld": false,
+        "summary": "No hostile domain indicators found."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": "AXIS",
+        "financialCoercion": true,
+        "credentialHarvesting": false,
+        "summary": "Sender impersonates AXIS to leverage brand trust for unauthorized data acquisition."
+      },
+      "riskAnalyst": {
+        "baseScore": 80,
+        "ruleSignals": [
+          {
+            "rule": "Urgency Language Manipulation",
+            "points": 15
+          },
+          {
+            "rule": "Unsolicited Financial Demands",
+            "points": 20
+          },
+          {
+            "rule": "Brand / Authority Impersonation",
+            "points": 20
+          },
+          {
+            "rule": "Unsolicited Prize / Reward Bait",
+            "points": 15
+          },
+          {
+            "rule": "Compound Multi-Vector Attack",
+            "points": 10
+          }
+        ],
+        "totalCalculated": 80
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This message is a fraudulent attempt to compromise your accounts or steal funds. Do not respond or click any attached links.",
+        "actionAdvice": "Block the sender, avoid sharing verification codes, and report this communication immediately."
+      }
+    },
+    "timelineMs": 29259,
+    "engineUsed": "Rule-Based Engine (Demo / Fallback)"
+  },
+  {
+    "id": "tg-1789280332318-ik0vv",
+    "timestamp": "2026-09-13T06:18:52.319Z",
+    "inputType": "text",
+    "inputData": "Up to Rs.70,000 is ready to be credited. EMI from Rs.1000. Just complete your 2-min KYC - http://Kx10.in/FINPLO/h1SsEB FinVen",
+    "risk_score": 40,
+    "risk_level": "LOW",
+    "category": "KYC Scam",
+    "confidence": 75,
+    "summary": "TrustGuard evaluated this text via multi-agent heuristic inspection (AI panel temporarily unavailable). Detected 2 significant fraud indicators.",
+    "red_flags": [
+      {
+        "id": "rf-kyc",
+        "title": "Urgent KYC Verification Pretext",
+        "severity": "HIGH",
+        "explanation": "Uses KYC / PAN / Aadhaar compliance as a fraudulent pretext to extract confidential identity documents.",
+        "tag": "KYC Fraud"
+      },
+      {
+        "id": "rf-url",
+        "title": "Deceptive or High-Risk Link",
+        "severity": "CRITICAL",
+        "explanation": "Link exhibits high-risk indicators (Unencrypted HTTP protocol). Likely designed to mimic official portals to harvest credentials.",
+        "tag": "Phishing Link"
+      }
+    ],
+    "evidence": [
+      "Exploits regulatory KYC compliance as an urgency trigger",
+      "URL contains suspicious attributes: Unencrypted HTTP protocol"
+    ],
+    "recommendations": [
+      "No critical threat markers detected. The content matches normal communication patterns.",
+      "As a routine security hygiene practice, always verify sensitive financial requests directly.",
+      "Keep your device security software and mobile operating system updated."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": false,
+        "manipulationTactics": [
+          "None identified"
+        ],
+        "sentiment": "Neutral",
+        "summary": "Tone appears normal with no obvious psychological coercion."
+      },
+      "urlInvestigator": {
+        "hasUrl": true,
+        "domain": "http://Kx10.in/FINPLO/h1SsEB",
+        "isHttps": false,
+        "domainMismatch": true,
+        "suspiciousTld": true,
+        "summary": "URL points to an unofficial or spoofed domain designed to deceive users."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": null,
+        "financialCoercion": false,
+        "credentialHarvesting": false,
+        "summary": "No specific corporate brand identity claimed."
+      },
+      "riskAnalyst": {
+        "baseScore": 40,
+        "ruleSignals": [
+          {
+            "rule": "KYC Verification Pretext",
+            "points": 15
+          },
+          {
+            "rule": "Suspicious Domain / Link Detected",
+            "points": 25
+          }
+        ],
+        "totalCalculated": 40
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This communication appears benign, with no typical scam patterns identified.",
+        "actionAdvice": "Verify through official customer support if you suspect any irregularities."
+      }
+    },
+    "timelineMs": 26070,
+    "engineUsed": "Rule-Based Engine (Demo / Fallback)"
+  },
+  {
+    "id": "tg-1789279037660-ef4hu",
+    "timestamp": "2026-09-13T05:57:17.660Z",
+    "inputType": "text",
+    "inputData": "Your Amazon package delivery could not be completed due to wrong address pin. Pay ₹39 rescheduling charge at: http://amazon-delivery-status.top",
+    "risk_score": 99,
+    "risk_level": "CRITICAL",
+    "category": "Delivery Scam",
+    "confidence": 99,
+    "summary": "High-risk smishing attack impersonating Amazon. The message uses a fake package delivery failure alert to coerce the victim into paying a nominal fee on a fraudulent, unencrypted phishing website designed to harvest payment credentials.",
+    "red_flags": [
+      {
+        "id": "rf-creds",
+        "title": "Credential Harvesting Request",
+        "severity": "CRITICAL",
+        "explanation": "Demands confidential security tokens or credentials (pin). Legitimate organizations never request your OTP or PIN.",
+        "tag": "Data Theft"
+      },
+      {
+        "id": "rf-payment",
+        "title": "Unverified Payment Demand",
+        "severity": "HIGH",
+        "explanation": "Requests upfront payment or money transfer (pay) under a pretext or processing fee.",
+        "tag": "Financial"
+      },
+      {
+        "id": "rf-impersonation",
+        "title": "Brand / Authority Impersonation",
+        "severity": "HIGH",
+        "explanation": "Claims affiliation with recognized brand or institution (AMAZON).",
+        "tag": "Identity Spoofing"
+      },
+      {
+        "id": "rf-url",
+        "title": "Deceptive or High-Risk Link",
+        "severity": "CRITICAL",
+        "explanation": "Link exhibits high-risk indicators (High-risk TLD). Likely designed to mimic official portals to harvest credentials.",
+        "tag": "Phishing Link"
+      },
+      {
+        "id": "ai-t4nrdje",
+        "title": "Spoofed Domain & Insecure Protocol",
+        "severity": "CRITICAL",
+        "explanation": "The URL uses 'http://amazon-delivery-status.top' instead of an official Amazon domain (e.g., amazon.in or amazon.com) and lacks HTTPS encryption.",
+        "tag": "Phishing Link"
+      },
+      {
+        "id": "ai-g06bsky",
+        "title": "Micro-Payment Trap",
+        "severity": "HIGH",
+        "explanation": "Requesting an insignificant rescheduling charge (₹39) is a standard tactic to trick victims into entering credit/debit card numbers or UPI PINs on a credential-harvesting gateway.",
+        "tag": "Financial Scam"
+      },
+      {
+        "id": "ai-1btrnir",
+        "title": "Delivery Exception Lure",
+        "severity": "HIGH",
+        "explanation": "Claims of delivery failure due to an incorrect PIN code or address are engineered to induce panic and immediate compliance.",
+        "tag": "Social Engineering"
+      }
+    ],
+    "evidence": [
+      "Domain 'amazon-delivery-status.top' does not belong to Amazon Inc.",
+      "Non-secure HTTP protocol used for financial transaction prompt",
+      "Generic `.top` TLD commonly associated with automated disposable scam infrastructure",
+      "Amazon policy does not mandate arbitrary external rescheduling charges for address corrections",
+      "Requests user password, PIN, or one-time verification code",
+      "Demands financial transaction or advance processing fee",
+      "Cites recognized institution (AMAZON) without legitimate provenance",
+      "URL contains suspicious attributes: High-risk TLD",
+      "Multiple concurrent fraud indicators detected across urgency, credentials, and domain"
+    ],
+    "recommendations": [
+      "Do not click any embedded links or download attachments from this sender.",
+      "Never disclose your OTP, PIN, password, or UPI MPIN to anyone under any circumstance.",
+      "Do not transfer money or pay \"processing fees\" to unlock accounts or claim deliveries.",
+      "Block the sender on your messaging platform or phone dialer.",
+      "Report the message to national cyber crime authorities (e.g., cybercrime.gov.in / 1930 in India).",
+      "Contact the official customer support directly via their verified website or app."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": true,
+        "manipulationTactics": [
+          "Package delivery anxiety",
+          "Micro-transaction deception",
+          "Fabricated logistical error"
+        ],
+        "sentiment": "Urgent and transactional",
+        "summary": "The message relies on the fear of missing an order delivery and uses an insignificantly low payment amount (₹39) to lower the victim's guard."
+      },
+      "urlInvestigator": {
+        "hasUrl": true,
+        "domain": "amazon-delivery-status.top",
+        "isHttps": false,
+        "domainMismatch": true,
+        "suspiciousTld": true,
+        "summary": "Clear malicious spoof. The domain uses typosquatting/brand impersonation with a high-risk `.top` TLD and transmits data over unencrypted HTTP."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": "Amazon",
+        "financialCoercion": true,
+        "credentialHarvesting": true,
+        "summary": "Direct impersonation of Amazon logistics to redirect targets to a fake payment portal that captures card details and OTPs."
+      },
+      "riskAnalyst": {
+        "baseScore": 100,
+        "ruleSignals": [
+          {
+            "rule": "Credential Harvesting Attempt",
+            "points": 25
+          },
+          {
+            "rule": "Unsolicited Financial Demands",
+            "points": 20
+          },
+          {
+            "rule": "Brand / Authority Impersonation",
+            "points": 20
+          },
+          {
+            "rule": "Suspicious Domain / Link Detected",
+            "points": 25
+          },
+          {
+            "rule": "Compound Multi-Vector Attack",
+            "points": 10
+          }
+        ],
+        "totalCalculated": 99
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This message is completely fake. Amazon does not ask for ₹39 rescheduling fees via suspicious web links.",
+        "actionAdvice": "Delete the message and block the sender. Check your official Amazon application directly if you are expecting a shipment."
+      }
+    },
+    "timelineMs": 18807,
+    "engineUsed": "Gemini 3.8 Flash (AI Panel)"
+  },
+  {
+    "id": "tg-1789238089034-04e4u",
+    "timestamp": "2026-09-12T18:34:49.034Z",
+    "inputType": "text",
+    "inputData": "Your Amazon package delivery could not be completed due to wrong address pin. Pay ₹39 rescheduling charge at: http://amazon-delivery-status.top",
+    "risk_score": 100,
+    "risk_level": "CRITICAL",
+    "category": "Delivery Scam",
+    "confidence": 85,
+    "summary": "TrustGuard evaluated this text via our local rule-based engine. Multiple threat indicators were identified.",
+    "red_flags": [
+      {
+        "id": "rf-creds",
+        "title": "Credential Harvesting Request",
+        "severity": "CRITICAL",
+        "explanation": "Demands confidential security tokens or credentials (pin). Legitimate organizations never request your OTP or PIN.",
+        "tag": "Data Theft"
+      },
+      {
+        "id": "rf-payment",
+        "title": "Unverified Payment Demand",
+        "severity": "HIGH",
+        "explanation": "Requests upfront payment or money transfer (pay) under a pretext or processing fee.",
+        "tag": "Financial"
+      },
+      {
+        "id": "rf-impersonation",
+        "title": "Brand / Authority Impersonation",
+        "severity": "HIGH",
+        "explanation": "Claims affiliation with recognized brand or institution (AMAZON).",
+        "tag": "Identity Spoofing"
+      },
+      {
+        "id": "rf-url",
+        "title": "Deceptive or High-Risk Link",
+        "severity": "CRITICAL",
+        "explanation": "Link exhibits high-risk indicators (High-risk TLD). Likely designed to mimic official portals to harvest credentials.",
+        "tag": "Phishing Link"
+      }
+    ],
+    "evidence": [
+      "Requests user password, PIN, or one-time verification code",
+      "Demands financial transaction or advance processing fee",
+      "Cites recognized institution (AMAZON) without legitimate provenance",
+      "URL contains suspicious attributes: High-risk TLD",
+      "Multiple concurrent fraud indicators detected across urgency, credentials, and domain"
+    ],
+    "recommendations": [
+      "Do not click any embedded links or download attachments from this sender.",
+      "Never disclose your OTP, PIN, password, or UPI MPIN to anyone under any circumstance.",
+      "Do not transfer money or pay \"processing fees\" to unlock accounts or claim deliveries.",
+      "Block the sender on your messaging platform or phone dialer.",
+      "Report the message to national cyber crime authorities (e.g., cybercrime.gov.in / 1930 in India).",
+      "Contact the official customer support directly via their verified website or app."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": false,
+        "manipulationTactics": [
+          "None identified"
+        ],
+        "sentiment": "Neutral",
+        "summary": "Tone appears normal with no obvious psychological coercion."
+      },
+      "urlInvestigator": {
+        "hasUrl": true,
+        "domain": "http://amazon-delivery-status.top",
+        "isHttps": false,
+        "domainMismatch": true,
+        "suspiciousTld": true,
+        "summary": "URL points to an unofficial or spoofed domain designed to deceive users."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": "AMAZON",
+        "financialCoercion": true,
+        "credentialHarvesting": true,
+        "summary": "Sender impersonates AMAZON to leverage brand trust for unauthorized data acquisition."
+      },
+      "riskAnalyst": {
+        "baseScore": 100,
+        "ruleSignals": [
+          {
+            "rule": "Credential Harvesting Attempt",
+            "points": 25
+          },
+          {
+            "rule": "Unsolicited Financial Demands",
+            "points": 20
+          },
+          {
+            "rule": "Brand / Authority Impersonation",
+            "points": 20
+          },
+          {
+            "rule": "Suspicious Domain / Link Detected",
+            "points": 25
+          },
+          {
+            "rule": "Compound Multi-Vector Attack",
+            "points": 10
+          }
+        ],
+        "totalCalculated": 100
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This message is a fraudulent attempt to compromise your accounts or steal funds. Do not respond or click any attached links.",
+        "actionAdvice": "Block the sender, avoid sharing verification codes, and report this communication immediately."
+      }
+    },
+    "timelineMs": 1099,
+    "engineUsed": "Rule-Based Engine (Demo / Fallback)"
+  },
+  {
+    "id": "tg-1789237214627-kfj75",
+    "timestamp": "2026-09-12T18:20:14.627Z",
+    "inputType": "text",
+    "inputData": "Hello, this is a simple TrustGuard test message.",
+    "risk_score": 0,
+    "risk_level": "SAFE",
+    "category": "Legitimate / Safe",
+    "confidence": 85,
+    "summary": "TrustGuard evaluated this text via our local rule-based engine. Multiple threat indicators were identified.",
+    "red_flags": [],
+    "evidence": [],
+    "recommendations": [
+      "No critical threat markers detected. The content matches normal communication patterns.",
+      "As a routine security hygiene practice, always verify sensitive financial requests directly.",
+      "Keep your device security software and mobile operating system updated."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": false,
+        "manipulationTactics": [
+          "None identified"
+        ],
+        "sentiment": "Neutral",
+        "summary": "Tone appears normal with no obvious psychological coercion."
+      },
+      "urlInvestigator": {
+        "hasUrl": false,
+        "domain": "None detected",
+        "isHttps": false,
+        "domainMismatch": false,
+        "suspiciousTld": false,
+        "summary": "No hostile domain indicators found."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": null,
+        "financialCoercion": false,
+        "credentialHarvesting": false,
+        "summary": "No specific corporate brand identity claimed."
+      },
+      "riskAnalyst": {
+        "baseScore": 0,
+        "ruleSignals": [],
+        "totalCalculated": 0
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This communication appears benign, with no typical scam patterns identified.",
+        "actionAdvice": "Verify through official customer support if you suspect any irregularities."
+      }
+    },
+    "timelineMs": 31333,
+    "engineUsed": "Rule-Based Engine (Demo / Fallback)"
+  },
+  {
+    "id": "tg-1789237207777-qfj9f",
+    "timestamp": "2026-09-12T18:20:07.777Z",
+    "inputType": "text",
+    "inputData": "Hello, this is a simple TrustGuard test message.",
+    "risk_score": 0,
+    "risk_level": "SAFE",
+    "category": "Legitimate / Safe",
+    "confidence": 85,
+    "summary": "TrustGuard evaluated this text via our local rule-based engine. Multiple threat indicators were identified.",
+    "red_flags": [],
+    "evidence": [],
+    "recommendations": [
+      "No critical threat markers detected. The content matches normal communication patterns.",
+      "As a routine security hygiene practice, always verify sensitive financial requests directly.",
+      "Keep your device security software and mobile operating system updated."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": false,
+        "manipulationTactics": [
+          "None identified"
+        ],
+        "sentiment": "Neutral",
+        "summary": "Tone appears normal with no obvious psychological coercion."
+      },
+      "urlInvestigator": {
+        "hasUrl": false,
+        "domain": "None detected",
+        "isHttps": false,
+        "domainMismatch": false,
+        "suspiciousTld": false,
+        "summary": "No hostile domain indicators found."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": null,
+        "financialCoercion": false,
+        "credentialHarvesting": false,
+        "summary": "No specific corporate brand identity claimed."
+      },
+      "riskAnalyst": {
+        "baseScore": 0,
+        "ruleSignals": [],
+        "totalCalculated": 0
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This communication appears benign, with no typical scam patterns identified.",
+        "actionAdvice": "Verify through official customer support if you suspect any irregularities."
+      }
+    },
+    "timelineMs": 8852,
+    "engineUsed": "Rule-Based Engine (Demo / Fallback)"
+  },
+  {
+    "id": "tg-1789237180976-tns4k",
+    "timestamp": "2026-09-12T18:19:40.976Z",
+    "inputType": "text",
+    "inputData": "URGENT! Your bank account will be blocked today. Verify your KYC immediately at http://example.com",
+    "risk_score": 65,
+    "risk_level": "SUSPICIOUS",
+    "category": "KYC Scam",
+    "confidence": 85,
+    "summary": "TrustGuard evaluated this text via our local rule-based engine. Multiple threat indicators were identified.",
+    "red_flags": [
+      {
+        "id": "rf-urgency",
+        "title": "Urgency Manipulation",
+        "severity": "HIGH",
+        "explanation": "Uses psychological pressure words (urgent, immediately, blocked today) to force hasty decisions without verification.",
+        "tag": "Psychological"
+      },
+      {
+        "id": "rf-kyc",
+        "title": "Urgent KYC Verification Pretext",
+        "severity": "HIGH",
+        "explanation": "Uses KYC / PAN / Aadhaar compliance as a fraudulent pretext to extract confidential identity documents.",
+        "tag": "KYC Fraud"
+      },
+      {
+        "id": "rf-url",
+        "title": "Deceptive or High-Risk Link",
+        "severity": "CRITICAL",
+        "explanation": "Link exhibits high-risk indicators (Unencrypted HTTP protocol). Likely designed to mimic official portals to harvest credentials.",
+        "tag": "Phishing Link"
+      }
+    ],
+    "evidence": [
+      "Detected artificial urgency phrasing designed to induce panic",
+      "Exploits regulatory KYC compliance as an urgency trigger",
+      "URL contains suspicious attributes: Unencrypted HTTP protocol",
+      "Multiple concurrent fraud indicators detected across urgency, credentials, and domain"
+    ],
+    "recommendations": [
+      "Pause before responding — verify the identity of the sender through a known, independent phone number.",
+      "Avoid sharing any personal identifiable information (PAN, Aadhaar, DOB, address).",
+      "If this is about an alleged order or service issue, check your official account portal separately.",
+      "Inspect the sending email address or phone number for subtle spelling alterations."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": true,
+        "manipulationTactics": [
+          "Time Pressure",
+          "Panic Inducement"
+        ],
+        "sentiment": "High Urgency",
+        "summary": "Linguistic analysis detected overt urgency and emotional manipulation tactics."
+      },
+      "urlInvestigator": {
+        "hasUrl": true,
+        "domain": "http://example.com",
+        "isHttps": false,
+        "domainMismatch": true,
+        "suspiciousTld": true,
+        "summary": "URL points to an unofficial or spoofed domain designed to deceive users."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": null,
+        "financialCoercion": false,
+        "credentialHarvesting": false,
+        "summary": "No specific corporate brand identity claimed."
+      },
+      "riskAnalyst": {
+        "baseScore": 65,
+        "ruleSignals": [
+          {
+            "rule": "Urgency Language Manipulation",
+            "points": 15
+          },
+          {
+            "rule": "KYC Verification Pretext",
+            "points": 15
+          },
+          {
+            "rule": "Suspicious Domain / Link Detected",
+            "points": 25
+          },
+          {
+            "rule": "Compound Multi-Vector Attack",
+            "points": 10
+          }
+        ],
+        "totalCalculated": 65
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This content displays questionable indicators. Exercise caution and verify directly through official channels.",
+        "actionAdvice": "Verify through official customer support if you suspect any irregularities."
+      }
+    },
+    "timelineMs": 32388,
+    "engineUsed": "Rule-Based Engine (Demo / Fallback)"
+  },
+  {
+    "id": "tg-1789236528222-zf3j8",
+    "timestamp": "2026-09-12T18:08:48.222Z",
+    "inputType": "text",
+    "inputData": "URGENT! Your bank account will be blocked today. Verify your KYC immediately at http://example.com",
+    "risk_score": 65,
+    "risk_level": "SUSPICIOUS",
+    "category": "KYC Scam",
+    "confidence": 85,
+    "summary": "TrustGuard evaluated this text via our local rule-based engine. Multiple threat indicators were identified.",
+    "red_flags": [
+      {
+        "id": "rf-urgency",
+        "title": "Urgency Manipulation",
+        "severity": "HIGH",
+        "explanation": "Uses psychological pressure words (urgent, immediately, blocked today) to force hasty decisions without verification.",
+        "tag": "Psychological"
+      },
+      {
+        "id": "rf-kyc",
+        "title": "Urgent KYC Verification Pretext",
+        "severity": "HIGH",
+        "explanation": "Uses KYC / PAN / Aadhaar compliance as a fraudulent pretext to extract confidential identity documents.",
+        "tag": "KYC Fraud"
+      },
+      {
+        "id": "rf-url",
+        "title": "Deceptive or High-Risk Link",
+        "severity": "CRITICAL",
+        "explanation": "Link exhibits high-risk indicators (Unencrypted HTTP protocol). Likely designed to mimic official portals to harvest credentials.",
+        "tag": "Phishing Link"
+      }
+    ],
+    "evidence": [
+      "Detected artificial urgency phrasing designed to induce panic",
+      "Exploits regulatory KYC compliance as an urgency trigger",
+      "URL contains suspicious attributes: Unencrypted HTTP protocol",
+      "Multiple concurrent fraud indicators detected across urgency, credentials, and domain"
+    ],
+    "recommendations": [
+      "Pause before responding — verify the identity of the sender through a known, independent phone number.",
+      "Avoid sharing any personal identifiable information (PAN, Aadhaar, DOB, address).",
+      "If this is about an alleged order or service issue, check your official account portal separately.",
+      "Inspect the sending email address or phone number for subtle spelling alterations."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": true,
+        "manipulationTactics": [
+          "Time Pressure",
+          "Panic Inducement"
+        ],
+        "sentiment": "High Urgency",
+        "summary": "Linguistic analysis detected overt urgency and emotional manipulation tactics."
+      },
+      "urlInvestigator": {
+        "hasUrl": true,
+        "domain": "http://example.com",
+        "isHttps": false,
+        "domainMismatch": true,
+        "suspiciousTld": true,
+        "summary": "URL points to an unofficial or spoofed domain designed to deceive users."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": null,
+        "financialCoercion": false,
+        "credentialHarvesting": false,
+        "summary": "No specific corporate brand identity claimed."
+      },
+      "riskAnalyst": {
+        "baseScore": 65,
+        "ruleSignals": [
+          {
+            "rule": "Urgency Language Manipulation",
+            "points": 15
+          },
+          {
+            "rule": "KYC Verification Pretext",
+            "points": 15
+          },
+          {
+            "rule": "Suspicious Domain / Link Detected",
+            "points": 25
+          },
+          {
+            "rule": "Compound Multi-Vector Attack",
+            "points": 10
+          }
+        ],
+        "totalCalculated": 65
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This content displays questionable indicators. Exercise caution and verify directly through official channels.",
+        "actionAdvice": "Verify through official customer support if you suspect any irregularities."
+      }
+    },
+    "timelineMs": 10625,
+    "engineUsed": "Rule-Based Engine (Demo / Fallback)"
+  },
+  {
+    "id": "tg-1789236465761-jnqs4",
+    "timestamp": "2026-09-12T18:07:45.761Z",
+    "inputType": "text",
+    "inputData": "Your Amazon package delivery could not be completed due to wrong address pin. Pay ₹39 rescheduling charge at: http://amazon-delivery-status.top",
+    "risk_score": 100,
+    "risk_level": "CRITICAL",
+    "category": "Delivery Scam",
+    "confidence": 85,
+    "summary": "TrustGuard evaluated this text via our local rule-based engine. Multiple threat indicators were identified.",
+    "red_flags": [
+      {
+        "id": "rf-creds",
+        "title": "Credential Harvesting Request",
+        "severity": "CRITICAL",
+        "explanation": "Demands confidential security tokens or credentials (pin). Legitimate organizations never request your OTP or PIN.",
+        "tag": "Data Theft"
+      },
+      {
+        "id": "rf-payment",
+        "title": "Unverified Payment Demand",
+        "severity": "HIGH",
+        "explanation": "Requests upfront payment or money transfer (pay) under a pretext or processing fee.",
+        "tag": "Financial"
+      },
+      {
+        "id": "rf-impersonation",
+        "title": "Brand / Authority Impersonation",
+        "severity": "HIGH",
+        "explanation": "Claims affiliation with recognized brand or institution (AMAZON).",
+        "tag": "Identity Spoofing"
+      },
+      {
+        "id": "rf-url",
+        "title": "Deceptive or High-Risk Link",
+        "severity": "CRITICAL",
+        "explanation": "Link exhibits high-risk indicators (High-risk TLD). Likely designed to mimic official portals to harvest credentials.",
+        "tag": "Phishing Link"
+      }
+    ],
+    "evidence": [
+      "Requests user password, PIN, or one-time verification code",
+      "Demands financial transaction or advance processing fee",
+      "Cites recognized institution (AMAZON) without legitimate provenance",
+      "URL contains suspicious attributes: High-risk TLD",
+      "Multiple concurrent fraud indicators detected across urgency, credentials, and domain"
+    ],
+    "recommendations": [
+      "Do not click any embedded links or download attachments from this sender.",
+      "Never disclose your OTP, PIN, password, or UPI MPIN to anyone under any circumstance.",
+      "Do not transfer money or pay \"processing fees\" to unlock accounts or claim deliveries.",
+      "Block the sender on your messaging platform or phone dialer.",
+      "Report the message to national cyber crime authorities (e.g., cybercrime.gov.in / 1930 in India).",
+      "Contact the official customer support directly via their verified website or app."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": false,
+        "manipulationTactics": [
+          "None identified"
+        ],
+        "sentiment": "Neutral",
+        "summary": "Tone appears normal with no obvious psychological coercion."
+      },
+      "urlInvestigator": {
+        "hasUrl": true,
+        "domain": "http://amazon-delivery-status.top",
+        "isHttps": false,
+        "domainMismatch": true,
+        "suspiciousTld": true,
+        "summary": "URL points to an unofficial or spoofed domain designed to deceive users."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": "AMAZON",
+        "financialCoercion": true,
+        "credentialHarvesting": true,
+        "summary": "Sender impersonates AMAZON to leverage brand trust for unauthorized data acquisition."
+      },
+      "riskAnalyst": {
+        "baseScore": 100,
+        "ruleSignals": [
+          {
+            "rule": "Credential Harvesting Attempt",
+            "points": 25
+          },
+          {
+            "rule": "Unsolicited Financial Demands",
+            "points": 20
+          },
+          {
+            "rule": "Brand / Authority Impersonation",
+            "points": 20
+          },
+          {
+            "rule": "Suspicious Domain / Link Detected",
+            "points": 25
+          },
+          {
+            "rule": "Compound Multi-Vector Attack",
+            "points": 10
+          }
+        ],
+        "totalCalculated": 100
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This message is a fraudulent attempt to compromise your accounts or steal funds. Do not respond or click any attached links.",
+        "actionAdvice": "Block the sender, avoid sharing verification codes, and report this communication immediately."
+      }
+    },
+    "timelineMs": 11631,
+    "engineUsed": "Rule-Based Engine (Demo / Fallback)"
+  },
+  {
+    "id": "tg-1789221240318-ffpgf",
+    "timestamp": "2026-09-12T13:54:00.318Z",
+    "inputType": "text",
+    "inputData": "URGENT! Your bank account will be blocked today. Verify your KYC immediately at http://example.com",
+    "risk_score": 65,
+    "risk_level": "SUSPICIOUS",
+    "category": "KYC Scam",
+    "confidence": 85,
+    "summary": "TrustGuard evaluated this text via our local rule-based engine. Multiple threat indicators were identified.",
+    "red_flags": [
+      {
+        "id": "rf-urgency",
+        "title": "Urgency Manipulation",
+        "severity": "HIGH",
+        "explanation": "Uses psychological pressure words (urgent, immediately, blocked today) to force hasty decisions without verification.",
+        "tag": "Psychological"
+      },
+      {
+        "id": "rf-kyc",
+        "title": "Urgent KYC Verification Pretext",
+        "severity": "HIGH",
+        "explanation": "Uses KYC / PAN / Aadhaar compliance as a fraudulent pretext to extract confidential identity documents.",
+        "tag": "KYC Fraud"
+      },
+      {
+        "id": "rf-url",
+        "title": "Deceptive or High-Risk Link",
+        "severity": "CRITICAL",
+        "explanation": "Link exhibits high-risk indicators (Unencrypted HTTP protocol). Likely designed to mimic official portals to harvest credentials.",
+        "tag": "Phishing Link"
+      }
+    ],
+    "evidence": [
+      "Detected artificial urgency phrasing designed to induce panic",
+      "Exploits regulatory KYC compliance as an urgency trigger",
+      "URL contains suspicious attributes: Unencrypted HTTP protocol",
+      "Multiple concurrent fraud indicators detected across urgency, credentials, and domain"
+    ],
+    "recommendations": [
+      "Pause before responding — verify the identity of the sender through a known, independent phone number.",
+      "Avoid sharing any personal identifiable information (PAN, Aadhaar, DOB, address).",
+      "If this is about an alleged order or service issue, check your official account portal separately.",
+      "Inspect the sending email address or phone number for subtle spelling alterations."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": true,
+        "manipulationTactics": [
+          "Time Pressure",
+          "Panic Inducement"
+        ],
+        "sentiment": "High Urgency",
+        "summary": "Linguistic analysis detected overt urgency and emotional manipulation tactics."
+      },
+      "urlInvestigator": {
+        "hasUrl": true,
+        "domain": "http://example.com",
+        "isHttps": false,
+        "domainMismatch": true,
+        "suspiciousTld": true,
+        "summary": "URL points to an unofficial or spoofed domain designed to deceive users."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": null,
+        "financialCoercion": false,
+        "credentialHarvesting": false,
+        "summary": "No specific corporate brand identity claimed."
+      },
+      "riskAnalyst": {
+        "baseScore": 65,
+        "ruleSignals": [
+          {
+            "rule": "Urgency Language Manipulation",
+            "points": 15
+          },
+          {
+            "rule": "KYC Verification Pretext",
+            "points": 15
+          },
+          {
+            "rule": "Suspicious Domain / Link Detected",
+            "points": 25
+          },
+          {
+            "rule": "Compound Multi-Vector Attack",
+            "points": 10
+          }
+        ],
+        "totalCalculated": 65
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This content displays questionable indicators. Exercise caution and verify directly through official channels.",
+        "actionAdvice": "Verify through official customer support if you suspect any irregularities."
+      }
+    },
+    "timelineMs": 5242,
+    "engineUsed": "Rule-Based Engine (Demo / Fallback)"
+  },
+  {
+    "id": "tg-1789221001848-0i8js",
+    "timestamp": "2026-09-12T13:50:01.848Z",
+    "inputType": "text",
+    "inputData": "Up to Rs.70,000 is ready to be credited. EMI from Rs.1000. Just complete your 2-min KYC - http://Kx10.in/FINPLO/h1SsEB FinVen",
+    "risk_score": 40,
+    "risk_level": "LOW",
+    "category": "KYC Scam",
+    "confidence": 85,
+    "summary": "TrustGuard evaluated this text via our local rule-based engine. Multiple threat indicators were identified.",
+    "red_flags": [
+      {
+        "id": "rf-kyc",
+        "title": "Urgent KYC Verification Pretext",
+        "severity": "HIGH",
+        "explanation": "Uses KYC / PAN / Aadhaar compliance as a fraudulent pretext to extract confidential identity documents.",
+        "tag": "KYC Fraud"
+      },
+      {
+        "id": "rf-url",
+        "title": "Deceptive or High-Risk Link",
+        "severity": "CRITICAL",
+        "explanation": "Link exhibits high-risk indicators (Unencrypted HTTP protocol). Likely designed to mimic official portals to harvest credentials.",
+        "tag": "Phishing Link"
+      }
+    ],
+    "evidence": [
+      "Exploits regulatory KYC compliance as an urgency trigger",
+      "URL contains suspicious attributes: Unencrypted HTTP protocol"
+    ],
+    "recommendations": [
+      "No critical threat markers detected. The content matches normal communication patterns.",
+      "As a routine security hygiene practice, always verify sensitive financial requests directly.",
+      "Keep your device security software and mobile operating system updated."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": false,
+        "manipulationTactics": [
+          "None identified"
+        ],
+        "sentiment": "Neutral",
+        "summary": "Tone appears normal with no obvious psychological coercion."
+      },
+      "urlInvestigator": {
+        "hasUrl": true,
+        "domain": "http://Kx10.in/FINPLO/h1SsEB",
+        "isHttps": false,
+        "domainMismatch": true,
+        "suspiciousTld": true,
+        "summary": "URL points to an unofficial or spoofed domain designed to deceive users."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": null,
+        "financialCoercion": false,
+        "credentialHarvesting": false,
+        "summary": "No specific corporate brand identity claimed."
+      },
+      "riskAnalyst": {
+        "baseScore": 40,
+        "ruleSignals": [
+          {
+            "rule": "KYC Verification Pretext",
+            "points": 15
+          },
+          {
+            "rule": "Suspicious Domain / Link Detected",
+            "points": 25
+          }
+        ],
+        "totalCalculated": 40
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This communication appears benign, with no typical scam patterns identified.",
+        "actionAdvice": "Verify through official customer support if you suspect any irregularities."
+      }
+    },
+    "timelineMs": 3882,
+    "engineUsed": "Rule-Based Engine (Demo / Fallback)"
+  },
+  {
+    "id": "tg-1789220840403-rnqi2",
+    "timestamp": "2026-09-12T13:47:20.403Z",
+    "inputType": "text",
+    "inputData": "URGENT! Your bank account will be blocked today. Verify your KYC immediately at http://example.com",
+    "risk_score": 65,
+    "risk_level": "SUSPICIOUS",
+    "category": "KYC Scam",
+    "confidence": 85,
+    "summary": "TrustGuard evaluated this text via our local rule-based engine. Multiple threat indicators were identified.",
+    "red_flags": [
+      {
+        "id": "rf-urgency",
+        "title": "Urgency Manipulation",
+        "severity": "HIGH",
+        "explanation": "Uses psychological pressure words (urgent, immediately, blocked today) to force hasty decisions without verification.",
+        "tag": "Psychological"
+      },
+      {
+        "id": "rf-kyc",
+        "title": "Urgent KYC Verification Pretext",
+        "severity": "HIGH",
+        "explanation": "Uses KYC / PAN / Aadhaar compliance as a fraudulent pretext to extract confidential identity documents.",
+        "tag": "KYC Fraud"
+      },
+      {
+        "id": "rf-url",
+        "title": "Deceptive or High-Risk Link",
+        "severity": "CRITICAL",
+        "explanation": "Link exhibits high-risk indicators (Unencrypted HTTP protocol). Likely designed to mimic official portals to harvest credentials.",
+        "tag": "Phishing Link"
+      }
+    ],
+    "evidence": [
+      "Detected artificial urgency phrasing designed to induce panic",
+      "Exploits regulatory KYC compliance as an urgency trigger",
+      "URL contains suspicious attributes: Unencrypted HTTP protocol",
+      "Multiple concurrent fraud indicators detected across urgency, credentials, and domain"
+    ],
+    "recommendations": [
+      "Pause before responding — verify the identity of the sender through a known, independent phone number.",
+      "Avoid sharing any personal identifiable information (PAN, Aadhaar, DOB, address).",
+      "If this is about an alleged order or service issue, check your official account portal separately.",
+      "Inspect the sending email address or phone number for subtle spelling alterations."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": true,
+        "manipulationTactics": [
+          "Time Pressure",
+          "Panic Inducement"
+        ],
+        "sentiment": "High Urgency",
+        "summary": "Linguistic analysis detected overt urgency and emotional manipulation tactics."
+      },
+      "urlInvestigator": {
+        "hasUrl": true,
+        "domain": "http://example.com",
+        "isHttps": false,
+        "domainMismatch": true,
+        "suspiciousTld": true,
+        "summary": "URL points to an unofficial or spoofed domain designed to deceive users."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": null,
+        "financialCoercion": false,
+        "credentialHarvesting": false,
+        "summary": "No specific corporate brand identity claimed."
+      },
+      "riskAnalyst": {
+        "baseScore": 65,
+        "ruleSignals": [
+          {
+            "rule": "Urgency Language Manipulation",
+            "points": 15
+          },
+          {
+            "rule": "KYC Verification Pretext",
+            "points": 15
+          },
+          {
+            "rule": "Suspicious Domain / Link Detected",
+            "points": 25
+          },
+          {
+            "rule": "Compound Multi-Vector Attack",
+            "points": 10
+          }
+        ],
+        "totalCalculated": 65
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This content displays questionable indicators. Exercise caution and verify directly through official channels.",
+        "actionAdvice": "Verify through official customer support if you suspect any irregularities."
+      }
+    },
+    "timelineMs": 10725,
+    "engineUsed": "Rule-Based Engine (Demo / Fallback)"
+  },
+  {
+    "id": "tg-1789220681421-65au4",
+    "timestamp": "2026-09-12T13:44:41.421Z",
+    "inputType": "text",
+    "inputData": "Up to Rs.70,000 is ready to be credited. EMI from Rs.1000. Just complete your 2-min KYC - http://Kx10.in/FINPLO/h1SsEB FinVen",
+    "risk_score": 40,
+    "risk_level": "LOW",
+    "category": "KYC Scam",
+    "confidence": 85,
+    "summary": "TrustGuard evaluated this text via our local rule-based engine. Multiple threat indicators were identified.",
+    "red_flags": [
+      {
+        "id": "rf-kyc",
+        "title": "Urgent KYC Verification Pretext",
+        "severity": "HIGH",
+        "explanation": "Uses KYC / PAN / Aadhaar compliance as a fraudulent pretext to extract confidential identity documents.",
+        "tag": "KYC Fraud"
+      },
+      {
+        "id": "rf-url",
+        "title": "Deceptive or High-Risk Link",
+        "severity": "CRITICAL",
+        "explanation": "Link exhibits high-risk indicators (Unencrypted HTTP protocol). Likely designed to mimic official portals to harvest credentials.",
+        "tag": "Phishing Link"
+      }
+    ],
+    "evidence": [
+      "Exploits regulatory KYC compliance as an urgency trigger",
+      "URL contains suspicious attributes: Unencrypted HTTP protocol"
+    ],
+    "recommendations": [
+      "No critical threat markers detected. The content matches normal communication patterns.",
+      "As a routine security hygiene practice, always verify sensitive financial requests directly.",
+      "Keep your device security software and mobile operating system updated."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": false,
+        "manipulationTactics": [
+          "None identified"
+        ],
+        "sentiment": "Neutral",
+        "summary": "Tone appears normal with no obvious psychological coercion."
+      },
+      "urlInvestigator": {
+        "hasUrl": true,
+        "domain": "http://Kx10.in/FINPLO/h1SsEB",
+        "isHttps": false,
+        "domainMismatch": true,
+        "suspiciousTld": true,
+        "summary": "URL points to an unofficial or spoofed domain designed to deceive users."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": null,
+        "financialCoercion": false,
+        "credentialHarvesting": false,
+        "summary": "No specific corporate brand identity claimed."
+      },
+      "riskAnalyst": {
+        "baseScore": 40,
+        "ruleSignals": [
+          {
+            "rule": "KYC Verification Pretext",
+            "points": 15
+          },
+          {
+            "rule": "Suspicious Domain / Link Detected",
+            "points": 25
+          }
+        ],
+        "totalCalculated": 40
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This communication appears benign, with no typical scam patterns identified.",
+        "actionAdvice": "Verify through official customer support if you suspect any irregularities."
+      }
+    },
+    "timelineMs": 5418,
+    "engineUsed": "Rule-Based Engine (Demo / Fallback)"
+  },
+  {
+    "id": "tg-1789220668104-69soh",
+    "timestamp": "2026-09-12T13:44:28.104Z",
+    "inputType": "text",
+    "inputData": "Up to Rs.70,000 is ready to be credited. EMI from Rs.1000. Just complete your 2-min KYC - http://Kx10.in/FINPLO/h1SsEB FinVen\n",
+    "risk_score": 40,
+    "risk_level": "LOW",
+    "category": "KYC Scam",
+    "confidence": 85,
+    "summary": "TrustGuard evaluated this text via our local rule-based engine. Multiple threat indicators were identified.",
+    "red_flags": [
+      {
+        "id": "rf-kyc",
+        "title": "Urgent KYC Verification Pretext",
+        "severity": "HIGH",
+        "explanation": "Uses KYC / PAN / Aadhaar compliance as a fraudulent pretext to extract confidential identity documents.",
+        "tag": "KYC Fraud"
+      },
+      {
+        "id": "rf-url",
+        "title": "Deceptive or High-Risk Link",
+        "severity": "CRITICAL",
+        "explanation": "Link exhibits high-risk indicators (Unencrypted HTTP protocol). Likely designed to mimic official portals to harvest credentials.",
+        "tag": "Phishing Link"
+      }
+    ],
+    "evidence": [
+      "Exploits regulatory KYC compliance as an urgency trigger",
+      "URL contains suspicious attributes: Unencrypted HTTP protocol"
+    ],
+    "recommendations": [
+      "No critical threat markers detected. The content matches normal communication patterns.",
+      "As a routine security hygiene practice, always verify sensitive financial requests directly.",
+      "Keep your device security software and mobile operating system updated."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": false,
+        "manipulationTactics": [
+          "None identified"
+        ],
+        "sentiment": "Neutral",
+        "summary": "Tone appears normal with no obvious psychological coercion."
+      },
+      "urlInvestigator": {
+        "hasUrl": true,
+        "domain": "http://Kx10.in/FINPLO/h1SsEB",
+        "isHttps": false,
+        "domainMismatch": true,
+        "suspiciousTld": true,
+        "summary": "URL points to an unofficial or spoofed domain designed to deceive users."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": null,
+        "financialCoercion": false,
+        "credentialHarvesting": false,
+        "summary": "No specific corporate brand identity claimed."
+      },
+      "riskAnalyst": {
+        "baseScore": 40,
+        "ruleSignals": [
+          {
+            "rule": "KYC Verification Pretext",
+            "points": 15
+          },
+          {
+            "rule": "Suspicious Domain / Link Detected",
+            "points": 25
+          }
+        ],
+        "totalCalculated": 40
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This communication appears benign, with no typical scam patterns identified.",
+        "actionAdvice": "Verify through official customer support if you suspect any irregularities."
+      }
+    },
+    "timelineMs": 6036,
+    "engineUsed": "Rule-Based Engine (Demo / Fallback)"
+  },
+  {
+    "id": "tg-1789220434091-o9gns",
+    "timestamp": "2026-09-12T13:40:34.091Z",
+    "inputType": "text",
+    "inputData": "URGENT! Your bank account will be blocked today. Verify your KYC immediately at http://example.com",
+    "risk_score": 65,
+    "risk_level": "SUSPICIOUS",
+    "category": "KYC Scam",
+    "confidence": 85,
+    "summary": "TrustGuard evaluated this text via our local rule-based engine. Multiple threat indicators were identified.",
+    "red_flags": [
+      {
+        "id": "rf-urgency",
+        "title": "Urgency Manipulation",
+        "severity": "HIGH",
+        "explanation": "Uses psychological pressure words (urgent, immediately, blocked today) to force hasty decisions without verification.",
+        "tag": "Psychological"
+      },
+      {
+        "id": "rf-kyc",
+        "title": "Urgent KYC Verification Pretext",
+        "severity": "HIGH",
+        "explanation": "Uses KYC / PAN / Aadhaar compliance as a fraudulent pretext to extract confidential identity documents.",
+        "tag": "KYC Fraud"
+      },
+      {
+        "id": "rf-url",
+        "title": "Deceptive or High-Risk Link",
+        "severity": "CRITICAL",
+        "explanation": "Link exhibits high-risk indicators (Unencrypted HTTP protocol). Likely designed to mimic official portals to harvest credentials.",
+        "tag": "Phishing Link"
+      }
+    ],
+    "evidence": [
+      "Detected artificial urgency phrasing designed to induce panic",
+      "Exploits regulatory KYC compliance as an urgency trigger",
+      "URL contains suspicious attributes: Unencrypted HTTP protocol",
+      "Multiple concurrent fraud indicators detected across urgency, credentials, and domain"
+    ],
+    "recommendations": [
+      "Pause before responding — verify the identity of the sender through a known, independent phone number.",
+      "Avoid sharing any personal identifiable information (PAN, Aadhaar, DOB, address).",
+      "If this is about an alleged order or service issue, check your official account portal separately.",
+      "Inspect the sending email address or phone number for subtle spelling alterations."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": true,
+        "manipulationTactics": [
+          "Time Pressure",
+          "Panic Inducement"
+        ],
+        "sentiment": "High Urgency",
+        "summary": "Linguistic analysis detected overt urgency and emotional manipulation tactics."
+      },
+      "urlInvestigator": {
+        "hasUrl": true,
+        "domain": "http://example.com",
+        "isHttps": false,
+        "domainMismatch": true,
+        "suspiciousTld": true,
+        "summary": "URL points to an unofficial or spoofed domain designed to deceive users."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": null,
+        "financialCoercion": false,
+        "credentialHarvesting": false,
+        "summary": "No specific corporate brand identity claimed."
+      },
+      "riskAnalyst": {
+        "baseScore": 65,
+        "ruleSignals": [
+          {
+            "rule": "Urgency Language Manipulation",
+            "points": 15
+          },
+          {
+            "rule": "KYC Verification Pretext",
+            "points": 15
+          },
+          {
+            "rule": "Suspicious Domain / Link Detected",
+            "points": 25
+          },
+          {
+            "rule": "Compound Multi-Vector Attack",
+            "points": 10
+          }
+        ],
+        "totalCalculated": 65
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This content displays questionable indicators. Exercise caution and verify directly through official channels.",
+        "actionAdvice": "Verify through official customer support if you suspect any irregularities."
+      }
+    },
+    "timelineMs": 6439,
+    "engineUsed": "Rule-Based Engine (Demo / Fallback)"
+  },
+  {
+    "id": "tg-1789220237591-gwwa6",
+    "timestamp": "2026-09-12T13:37:17.591Z",
+    "inputType": "text",
+    "inputData": "Up to Rs.70,000 is ready to be credited. EMI from Rs.1000. Just complete your 2-min KYC - http://Kx10.in/FINPLO/h1SsEB FinVen\n",
+    "risk_score": 40,
+    "risk_level": "LOW",
+    "category": "KYC Scam",
+    "confidence": 85,
+    "summary": "TrustGuard evaluated this text via our local rule-based engine. Multiple threat indicators were identified.",
+    "red_flags": [
+      {
+        "id": "rf-kyc",
+        "title": "Urgent KYC Verification Pretext",
+        "severity": "HIGH",
+        "explanation": "Uses KYC / PAN / Aadhaar compliance as a fraudulent pretext to extract confidential identity documents.",
+        "tag": "KYC Fraud"
+      },
+      {
+        "id": "rf-url",
+        "title": "Deceptive or High-Risk Link",
+        "severity": "CRITICAL",
+        "explanation": "Link exhibits high-risk indicators (Unencrypted HTTP protocol). Likely designed to mimic official portals to harvest credentials.",
+        "tag": "Phishing Link"
+      }
+    ],
+    "evidence": [
+      "Exploits regulatory KYC compliance as an urgency trigger",
+      "URL contains suspicious attributes: Unencrypted HTTP protocol"
+    ],
+    "recommendations": [
+      "No critical threat markers detected. The content matches normal communication patterns.",
+      "As a routine security hygiene practice, always verify sensitive financial requests directly.",
+      "Keep your device security software and mobile operating system updated."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": false,
+        "manipulationTactics": [
+          "None identified"
+        ],
+        "sentiment": "Neutral",
+        "summary": "Tone appears normal with no obvious psychological coercion."
+      },
+      "urlInvestigator": {
+        "hasUrl": true,
+        "domain": "http://Kx10.in/FINPLO/h1SsEB",
+        "isHttps": false,
+        "domainMismatch": true,
+        "suspiciousTld": true,
+        "summary": "URL points to an unofficial or spoofed domain designed to deceive users."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": null,
+        "financialCoercion": false,
+        "credentialHarvesting": false,
+        "summary": "No specific corporate brand identity claimed."
+      },
+      "riskAnalyst": {
+        "baseScore": 40,
+        "ruleSignals": [
+          {
+            "rule": "KYC Verification Pretext",
+            "points": 15
+          },
+          {
+            "rule": "Suspicious Domain / Link Detected",
+            "points": 25
+          }
+        ],
+        "totalCalculated": 40
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This communication appears benign, with no typical scam patterns identified.",
+        "actionAdvice": "Verify through official customer support if you suspect any irregularities."
+      }
+    },
+    "timelineMs": 5269,
+    "engineUsed": "Rule-Based Engine (Demo / Fallback)"
+  },
+  {
+    "id": "tg-1789220235734-znbof",
+    "timestamp": "2026-09-12T13:37:15.734Z",
+    "inputType": "text",
+    "inputData": "Up to Rs.70,000 is ready to be credited. EMI from Rs.1000. Just complete your 2-min KYC - http://Kx10.in/FINPLO/h1SsEB FinVen\n",
+    "risk_score": 71,
+    "risk_level": "SUSPICIOUS",
+    "category": "KYC Scam",
+    "confidence": 95,
+    "summary": "High-risk smishing attempt baiting the victim with an unsolicited loan approval of Rs. 70,000. It directs the user to an unencrypted, suspicious URL to complete a fake '2-min KYC' designed to steal personal identification and banking credentials.",
+    "red_flags": [
+      {
+        "id": "rf-kyc",
+        "title": "Urgent KYC Verification Pretext",
+        "severity": "HIGH",
+        "explanation": "Uses KYC / PAN / Aadhaar compliance as a fraudulent pretext to extract confidential identity documents.",
+        "tag": "KYC Fraud"
+      },
+      {
+        "id": "rf-url",
+        "title": "Deceptive or High-Risk Link",
+        "severity": "CRITICAL",
+        "explanation": "Link exhibits high-risk indicators (Unencrypted HTTP protocol). Likely designed to mimic official portals to harvest credentials.",
+        "tag": "Phishing Link"
+      },
+      {
+        "id": "ai-xp6oljv",
+        "title": "Unsolicited Pre-Approved Loan Offer",
+        "severity": "HIGH",
+        "explanation": "Legitimate financial institutions do not disburse pre-approved loans via unsolicited SMS with instant credit claims without formal verification.",
+        "tag": "Baiting"
+      },
+      {
+        "id": "ai-cdwk5vl",
+        "title": "Insecure HTTP Link",
+        "severity": "CRITICAL",
+        "explanation": "The link uses an unencrypted 'http://' protocol, which is never used by legitimate entities handling sensitive KYC or banking transactions.",
+        "tag": "Insecure Protocol"
+      },
+      {
+        "id": "ai-hdffrlk",
+        "title": "Suspicious Obfuscated Domain",
+        "severity": "HIGH",
+        "explanation": "The domain 'Kx10.in' does not correspond to any recognized, regulated non-banking financial company (NBFC) or registered bank.",
+        "tag": "Untrusted Domain"
+      },
+      {
+        "id": "ai-8vxo2wr",
+        "title": "KYC Credential Harvesting Trap",
+        "severity": "CRITICAL",
+        "explanation": "Promising a '2-min KYC' is a common social engineering tactic used to harvest Aadhaar, PAN, and banking details for identity theft or unauthorized account access.",
+        "tag": "Credential Harvesting"
+      }
+    ],
+    "evidence": [
+      "Unsolicited loan credit claim: 'Up to Rs.70,000 is ready to be credited'",
+      "Unencrypted, non-HTTPS URL: 'http://Kx10.in/FINPLO/h1SsEB'",
+      "High-risk domain name structure: 'Kx10.in'",
+      "Urgent pressure to surrender identity documents via '2-min KYC'",
+      "Exploits regulatory KYC compliance as an urgency trigger",
+      "URL contains suspicious attributes: Unencrypted HTTP protocol"
+    ],
+    "recommendations": [
+      "Pause before responding — verify the identity of the sender through a known, independent phone number.",
+      "Avoid sharing any personal identifiable information (PAN, Aadhaar, DOB, address).",
+      "If this is about an alleged order or service issue, check your official account portal separately.",
+      "Inspect the sending email address or phone number for subtle spelling alterations."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": true,
+        "manipulationTactics": [
+          "Pre-approved loan baiting",
+          "Low-friction illusion ('2-min KYC')",
+          "Attractive financing conditions (EMI from Rs.1000)"
+        ],
+        "sentiment": "Enticing / Urgent",
+        "summary": "The message exploits financial need by offering quick credit with minimal resistance, luring the recipient into bypassing standard caution."
+      },
+      "urlInvestigator": {
+        "hasUrl": true,
+        "domain": "Kx10.in",
+        "isHttps": false,
+        "domainMismatch": true,
+        "suspiciousTld": false,
+        "summary": "The link uses plaintext HTTP on a shortened/burner domain 'Kx10.in', exhibiting severe indicators of a malicious phishing redirection service."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": "FinVen / Unregulated Lending App",
+        "financialCoercion": false,
+        "credentialHarvesting": true,
+        "summary": "The campaign mimics instant loan apps to harvest sensitive KYC documents and bank account credentials from unsuspecting targets."
+      },
+      "riskAnalyst": {
+        "baseScore": 40,
+        "ruleSignals": [
+          {
+            "rule": "KYC Verification Pretext",
+            "points": 15
+          },
+          {
+            "rule": "Suspicious Domain / Link Detected",
+            "points": 25
+          }
+        ],
+        "totalCalculated": 71
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This is an SMS scam attempting to steal your personal and financial information by pretending you have an approved loan waiting.",
+        "actionAdvice": "Delete the message immediately. Never click unencrypted links or share your KYC documents through SMS links."
+      }
+    },
+    "timelineMs": 10616,
+    "engineUsed": "Gemini 3.8 Flash (AI Panel)"
+  },
+  {
+    "id": "tg-1789219341928-xu3p2",
+    "timestamp": "2026-09-12T13:22:21.928Z",
+    "inputType": "text",
+    "inputData": "Congratulations! You have won ₹25,00,000 in the KBC lucky draw. Pay ₹4,999 registration fee immediately to claim your prize via UPI to winner@okaxis",
+    "risk_score": 80,
+    "risk_level": "HIGH",
+    "category": "Lottery/Prize Scam",
+    "confidence": 88,
+    "summary": "TrustGuard evaluated this text via multi-agent heuristic inspection. Detected 4 significant fraud indicators.",
+    "red_flags": [
+      {
+        "id": "rf-urgency",
+        "title": "Urgency Manipulation",
+        "severity": "HIGH",
+        "explanation": "Uses psychological pressure words (immediately) to force hasty decisions without verification.",
+        "tag": "Psychological"
+      },
+      {
+        "id": "rf-payment",
+        "title": "Unverified Payment Demand",
+        "severity": "HIGH",
+        "explanation": "Requests upfront payment or money transfer (pay, upi) under a pretext or processing fee.",
+        "tag": "Financial"
+      },
+      {
+        "id": "rf-impersonation",
+        "title": "Brand / Authority Impersonation",
+        "severity": "HIGH",
+        "explanation": "Claims affiliation with recognized brand or institution (AXIS).",
+        "tag": "Identity Spoofing"
+      },
+      {
+        "id": "rf-prize",
+        "title": "Lottery / Prize Bait",
+        "severity": "HIGH",
+        "explanation": "Promises high rewards, unprompted lottery winnings, or lucrative windfalls requiring upfront fees or data entry.",
+        "tag": "Social Engineering"
+      }
+    ],
+    "evidence": [
+      "Detected artificial urgency phrasing designed to induce panic",
+      "Demands financial transaction or advance processing fee",
+      "Cites recognized institution (AXIS) without legitimate provenance",
+      "Offers unprompted high-value prize or lucky draw reward",
+      "Multiple concurrent fraud indicators detected across urgency, credentials, and domain"
+    ],
+    "recommendations": [
+      "Do not click any embedded links or download attachments from this sender.",
+      "Never disclose your OTP, PIN, password, or UPI MPIN to anyone under any circumstance.",
+      "Do not transfer money or pay \"processing fees\" to unlock accounts or claim deliveries.",
+      "Block the sender on your messaging platform or phone dialer.",
+      "Report the message to national cyber crime authorities (e.g., cybercrime.gov.in / 1930 in India).",
+      "Contact the official customer support directly via their verified website or app."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": true,
+        "manipulationTactics": [
+          "Time Pressure",
+          "Panic Inducement"
+        ],
+        "sentiment": "High Urgency",
+        "summary": "Linguistic analysis detected overt urgency and emotional manipulation tactics."
+      },
+      "urlInvestigator": {
+        "hasUrl": false,
+        "domain": "None detected",
+        "isHttps": false,
+        "domainMismatch": false,
+        "suspiciousTld": false,
+        "summary": "No hostile domain indicators found."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": "AXIS",
+        "financialCoercion": true,
+        "credentialHarvesting": false,
+        "summary": "Sender impersonates AXIS to leverage brand trust for unauthorized data acquisition."
+      },
+      "riskAnalyst": {
+        "baseScore": 80,
+        "ruleSignals": [
+          {
+            "rule": "Urgency Language Manipulation",
+            "points": 15
+          },
+          {
+            "rule": "Unsolicited Financial Demands",
+            "points": 20
+          },
+          {
+            "rule": "Brand / Authority Impersonation",
+            "points": 20
+          },
+          {
+            "rule": "Unsolicited Prize / Reward Bait",
+            "points": 15
+          },
+          {
+            "rule": "Compound Multi-Vector Attack",
+            "points": 10
+          }
+        ],
+        "totalCalculated": 80
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This message is a fraudulent attempt to compromise your accounts or steal funds. Do not respond or click any attached links.",
+        "actionAdvice": "Block the sender, avoid sharing verification codes, and report this communication immediately."
+      }
+    },
+    "timelineMs": 320,
+    "engineUsed": "Rule-Based Engine (Demo / Fallback)"
+  },
+  {
+    "id": "tg-1789218104918-ff0p6",
+    "timestamp": "2026-09-12T13:01:44.918Z",
+    "inputType": "text",
+    "inputData": "Congratulations! You have won ₹25,00,000 in the KBC lucky draw. Pay ₹4,999 registration fee immediately to claim your prize via UPI to winner@okaxis",
+    "risk_score": 80,
+    "risk_level": "HIGH",
+    "category": "Lottery/Prize Scam",
+    "confidence": 88,
+    "summary": "TrustGuard evaluated this text via multi-agent heuristic inspection. Detected 4 significant fraud indicators.",
+    "red_flags": [
+      {
+        "id": "rf-urgency",
+        "title": "Urgency Manipulation",
+        "severity": "HIGH",
+        "explanation": "Uses psychological pressure words (immediately) to force hasty decisions without verification.",
+        "tag": "Psychological"
+      },
+      {
+        "id": "rf-payment",
+        "title": "Unverified Payment Demand",
+        "severity": "HIGH",
+        "explanation": "Requests upfront payment or money transfer (pay, upi) under a pretext or processing fee.",
+        "tag": "Financial"
+      },
+      {
+        "id": "rf-impersonation",
+        "title": "Brand / Authority Impersonation",
+        "severity": "HIGH",
+        "explanation": "Claims affiliation with recognized brand or institution (AXIS).",
+        "tag": "Identity Spoofing"
+      },
+      {
+        "id": "rf-prize",
+        "title": "Lottery / Prize Bait",
+        "severity": "HIGH",
+        "explanation": "Promises high rewards, unprompted lottery winnings, or lucrative windfalls requiring upfront fees or data entry.",
+        "tag": "Social Engineering"
+      }
+    ],
+    "evidence": [
+      "Detected artificial urgency phrasing designed to induce panic",
+      "Demands financial transaction or advance processing fee",
+      "Cites recognized institution (AXIS) without legitimate provenance",
+      "Offers unprompted high-value prize or lucky draw reward",
+      "Multiple concurrent fraud indicators detected across urgency, credentials, and domain"
+    ],
+    "recommendations": [
+      "Do not click any embedded links or download attachments from this sender.",
+      "Never disclose your OTP, PIN, password, or UPI MPIN to anyone under any circumstance.",
+      "Do not transfer money or pay \"processing fees\" to unlock accounts or claim deliveries.",
+      "Block the sender on your messaging platform or phone dialer.",
+      "Report the message to national cyber crime authorities (e.g., cybercrime.gov.in / 1930 in India).",
+      "Contact the official customer support directly via their verified website or app."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": true,
+        "manipulationTactics": [
+          "Time Pressure",
+          "Panic Inducement"
+        ],
+        "sentiment": "High Urgency",
+        "summary": "Linguistic analysis detected overt urgency and emotional manipulation tactics."
+      },
+      "urlInvestigator": {
+        "hasUrl": false,
+        "domain": "None detected",
+        "isHttps": false,
+        "domainMismatch": false,
+        "suspiciousTld": false,
+        "summary": "No hostile domain indicators found."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": "AXIS",
+        "financialCoercion": true,
+        "credentialHarvesting": false,
+        "summary": "Sender impersonates AXIS to leverage brand trust for unauthorized data acquisition."
+      },
+      "riskAnalyst": {
+        "baseScore": 80,
+        "ruleSignals": [
+          {
+            "rule": "Urgency Language Manipulation",
+            "points": 15
+          },
+          {
+            "rule": "Unsolicited Financial Demands",
+            "points": 20
+          },
+          {
+            "rule": "Brand / Authority Impersonation",
+            "points": 20
+          },
+          {
+            "rule": "Unsolicited Prize / Reward Bait",
+            "points": 15
+          },
+          {
+            "rule": "Compound Multi-Vector Attack",
+            "points": 10
+          }
+        ],
+        "totalCalculated": 80
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This message is a fraudulent attempt to compromise your accounts or steal funds. Do not respond or click any attached links.",
+        "actionAdvice": "Block the sender, avoid sharing verification codes, and report this communication immediately."
+      }
+    },
+    "timelineMs": 320,
+    "engineUsed": "Rule-Based Engine (Demo / Fallback)"
+  },
+  {
+    "id": "tg-1789217632111-vyqcf",
+    "timestamp": "2026-09-12T12:53:52.111Z",
+    "inputType": "text",
+    "inputData": "Your Amazon package delivery could not be completed due to wrong address pin. Pay ₹39 rescheduling charge at: http://amazon-delivery-status.top",
+    "risk_score": 100,
+    "risk_level": "CRITICAL",
+    "category": "Delivery Scam",
+    "confidence": 88,
+    "summary": "TrustGuard evaluated this text via multi-agent heuristic inspection. Detected 4 significant fraud indicators.",
+    "red_flags": [
+      {
+        "id": "rf-creds",
+        "title": "Credential Harvesting Request",
+        "severity": "CRITICAL",
+        "explanation": "Demands confidential security tokens or credentials (pin). Legitimate organizations never request your OTP or PIN.",
+        "tag": "Data Theft"
+      },
+      {
+        "id": "rf-payment",
+        "title": "Unverified Payment Demand",
+        "severity": "HIGH",
+        "explanation": "Requests upfront payment or money transfer (pay) under a pretext or processing fee.",
+        "tag": "Financial"
+      },
+      {
+        "id": "rf-impersonation",
+        "title": "Brand / Authority Impersonation",
+        "severity": "HIGH",
+        "explanation": "Claims affiliation with recognized brand or institution (AMAZON).",
+        "tag": "Identity Spoofing"
+      },
+      {
+        "id": "rf-url",
+        "title": "Deceptive or High-Risk Link",
+        "severity": "CRITICAL",
+        "explanation": "Link exhibits high-risk indicators (High-risk TLD). Likely designed to mimic official portals to harvest credentials.",
+        "tag": "Phishing Link"
+      }
+    ],
+    "evidence": [
+      "Requests user password, PIN, or one-time verification code",
+      "Demands financial transaction or advance processing fee",
+      "Cites recognized institution (AMAZON) without legitimate provenance",
+      "URL contains suspicious attributes: High-risk TLD",
+      "Multiple concurrent fraud indicators detected across urgency, credentials, and domain"
+    ],
+    "recommendations": [
+      "Do not click any embedded links or download attachments from this sender.",
+      "Never disclose your OTP, PIN, password, or UPI MPIN to anyone under any circumstance.",
+      "Do not transfer money or pay \"processing fees\" to unlock accounts or claim deliveries.",
+      "Block the sender on your messaging platform or phone dialer.",
+      "Report the message to national cyber crime authorities (e.g., cybercrime.gov.in / 1930 in India).",
+      "Contact the official customer support directly via their verified website or app."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": false,
+        "manipulationTactics": [
+          "None identified"
+        ],
+        "sentiment": "Neutral",
+        "summary": "Tone appears normal with no obvious psychological coercion."
+      },
+      "urlInvestigator": {
+        "hasUrl": true,
+        "domain": "http://amazon-delivery-status.top",
+        "isHttps": false,
+        "domainMismatch": true,
+        "suspiciousTld": true,
+        "summary": "URL points to an unofficial or spoofed domain designed to deceive users."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": "AMAZON",
+        "financialCoercion": true,
+        "credentialHarvesting": true,
+        "summary": "Sender impersonates AMAZON to leverage brand trust for unauthorized data acquisition."
+      },
+      "riskAnalyst": {
+        "baseScore": 100,
+        "ruleSignals": [
+          {
+            "rule": "Credential Harvesting Attempt",
+            "points": 25
+          },
+          {
+            "rule": "Unsolicited Financial Demands",
+            "points": 20
+          },
+          {
+            "rule": "Brand / Authority Impersonation",
+            "points": 20
+          },
+          {
+            "rule": "Suspicious Domain / Link Detected",
+            "points": 25
+          },
+          {
+            "rule": "Compound Multi-Vector Attack",
+            "points": 10
+          }
+        ],
+        "totalCalculated": 100
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This message is a fraudulent attempt to compromise your accounts or steal funds. Do not respond or click any attached links.",
+        "actionAdvice": "Block the sender, avoid sharing verification codes, and report this communication immediately."
+      }
+    },
+    "timelineMs": 320,
+    "engineUsed": "Rule-Based Engine (Demo / Fallback)"
+  },
+  {
+    "id": "tg-1789217286214-sbu16",
+    "timestamp": "2026-09-12T12:48:06.214Z",
+    "inputType": "text",
+    "inputData": "URGENT! Your SBI account will be blocked today. Complete KYC immediately at https://sbi-verification-update-kyc.com/login to avoid suspension.",
+    "risk_score": 85,
+    "risk_level": "HIGH",
+    "category": "KYC Scam",
+    "confidence": 88,
+    "summary": "TrustGuard evaluated this text via multi-agent heuristic inspection. Detected 4 significant fraud indicators.",
+    "red_flags": [
+      {
+        "id": "rf-urgency",
+        "title": "Urgency Manipulation",
+        "severity": "HIGH",
+        "explanation": "Uses psychological pressure words (urgent, immediately, blocked today) to force hasty decisions without verification.",
+        "tag": "Psychological"
+      },
+      {
+        "id": "rf-impersonation",
+        "title": "Brand / Authority Impersonation",
+        "severity": "HIGH",
+        "explanation": "Claims affiliation with recognized brand or institution (SBI).",
+        "tag": "Identity Spoofing"
+      },
+      {
+        "id": "rf-kyc",
+        "title": "Urgent KYC Verification Pretext",
+        "severity": "HIGH",
+        "explanation": "Uses KYC / PAN / Aadhaar compliance as a fraudulent pretext to extract confidential identity documents.",
+        "tag": "KYC Fraud"
+      },
+      {
+        "id": "rf-url",
+        "title": "Deceptive or High-Risk Link",
+        "severity": "CRITICAL",
+        "explanation": "Link exhibits high-risk indicators (Deceptive domain structure). Likely designed to mimic official portals to harvest credentials.",
+        "tag": "Phishing Link"
+      }
+    ],
+    "evidence": [
+      "Detected artificial urgency phrasing designed to induce panic",
+      "Cites recognized institution (SBI) without legitimate provenance",
+      "Exploits regulatory KYC compliance as an urgency trigger",
+      "URL contains suspicious attributes: Deceptive domain structure",
+      "Multiple concurrent fraud indicators detected across urgency, credentials, and domain"
+    ],
+    "recommendations": [
+      "Do not click any embedded links or download attachments from this sender.",
+      "Never disclose your OTP, PIN, password, or UPI MPIN to anyone under any circumstance.",
+      "Do not transfer money or pay \"processing fees\" to unlock accounts or claim deliveries.",
+      "Block the sender on your messaging platform or phone dialer.",
+      "Report the message to national cyber crime authorities (e.g., cybercrime.gov.in / 1930 in India).",
+      "Contact the official customer support directly via their verified website or app."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": true,
+        "manipulationTactics": [
+          "Time Pressure",
+          "Panic Inducement"
+        ],
+        "sentiment": "High Urgency",
+        "summary": "Linguistic analysis detected overt urgency and emotional manipulation tactics."
+      },
+      "urlInvestigator": {
+        "hasUrl": true,
+        "domain": "https://sbi-verification-update-kyc.com/login",
+        "isHttps": true,
+        "domainMismatch": true,
+        "suspiciousTld": true,
+        "summary": "URL points to an unofficial or spoofed domain designed to deceive users."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": "SBI",
+        "financialCoercion": false,
+        "credentialHarvesting": false,
+        "summary": "Sender impersonates SBI to leverage brand trust for unauthorized data acquisition."
+      },
+      "riskAnalyst": {
+        "baseScore": 85,
+        "ruleSignals": [
+          {
+            "rule": "Urgency Language Manipulation",
+            "points": 15
+          },
+          {
+            "rule": "Brand / Authority Impersonation",
+            "points": 20
+          },
+          {
+            "rule": "KYC Verification Pretext",
+            "points": 15
+          },
+          {
+            "rule": "Suspicious Domain / Link Detected",
+            "points": 25
+          },
+          {
+            "rule": "Compound Multi-Vector Attack",
+            "points": 10
+          }
+        ],
+        "totalCalculated": 85
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This message is a fraudulent attempt to compromise your accounts or steal funds. Do not respond or click any attached links.",
+        "actionAdvice": "Block the sender, avoid sharing verification codes, and report this communication immediately."
+      }
+    },
+    "timelineMs": 320,
+    "engineUsed": "Rule-Based Engine (Demo / Fallback)"
+  },
+  {
+    "id": "tg-1789216514265-wztmz",
+    "timestamp": "2026-09-12T12:35:14.265Z",
+    "inputType": "text",
+    "inputData": "Up to Rs.70,000 is ready to be credited. EMI from Rs.1000. Just complete your 2-min KYC - http://Kx10.in/FINPLO/h1SsEB FinVen",
+    "risk_score": 40,
+    "risk_level": "LOW",
+    "category": "KYC Scam",
+    "confidence": 88,
+    "summary": "TrustGuard evaluated this text via multi-agent heuristic inspection. Detected 2 significant fraud indicators.",
+    "red_flags": [
+      {
+        "id": "rf-kyc",
+        "title": "Urgent KYC Verification Pretext",
+        "severity": "HIGH",
+        "explanation": "Uses KYC / PAN / Aadhaar compliance as a fraudulent pretext to extract confidential identity documents.",
+        "tag": "KYC Fraud"
+      },
+      {
+        "id": "rf-url",
+        "title": "Deceptive or High-Risk Link",
+        "severity": "CRITICAL",
+        "explanation": "Link exhibits high-risk indicators (Unencrypted HTTP protocol). Likely designed to mimic official portals to harvest credentials.",
+        "tag": "Phishing Link"
+      }
+    ],
+    "evidence": [
+      "Exploits regulatory KYC compliance as an urgency trigger",
+      "URL contains suspicious attributes: Unencrypted HTTP protocol"
+    ],
+    "recommendations": [
+      "No critical threat markers detected. The content matches normal communication patterns.",
+      "As a routine security hygiene practice, always verify sensitive financial requests directly.",
+      "Keep your device security software and mobile operating system updated."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": false,
+        "manipulationTactics": [
+          "None identified"
+        ],
+        "sentiment": "Neutral",
+        "summary": "Tone appears normal with no obvious psychological coercion."
+      },
+      "urlInvestigator": {
+        "hasUrl": true,
+        "domain": "http://Kx10.in/FINPLO/h1SsEB",
+        "isHttps": false,
+        "domainMismatch": true,
+        "suspiciousTld": true,
+        "summary": "URL points to an unofficial or spoofed domain designed to deceive users."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": null,
+        "financialCoercion": false,
+        "credentialHarvesting": false,
+        "summary": "No specific corporate brand identity claimed."
+      },
+      "riskAnalyst": {
+        "baseScore": 40,
+        "ruleSignals": [
+          {
+            "rule": "KYC Verification Pretext",
+            "points": 15
+          },
+          {
+            "rule": "Suspicious Domain / Link Detected",
+            "points": 25
+          }
+        ],
+        "totalCalculated": 40
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This communication appears benign, with no typical scam patterns identified.",
+        "actionAdvice": "Verify through official customer support if you suspect any irregularities."
+      }
+    },
+    "timelineMs": 320,
+    "engineUsed": "Rule-Based Engine (Demo / Fallback)"
+  },
+  {
+    "id": "tg-1789216335971-el7mt",
+    "timestamp": "2026-09-12T12:32:15.971Z",
+    "inputType": "text",
+    "inputData": "Congratulations! You have won ₹25,00,000 in the KBC lucky draw. Pay ₹4,999 registration fee immediately to claim your prize via UPI to winner@okaxis",
+    "risk_score": 80,
+    "risk_level": "HIGH",
+    "category": "Lottery/Prize Scam",
+    "confidence": 88,
+    "summary": "TrustGuard evaluated this text via multi-agent heuristic inspection. Detected 4 significant fraud indicators.",
+    "red_flags": [
+      {
+        "id": "rf-urgency",
+        "title": "Urgency Manipulation",
+        "severity": "HIGH",
+        "explanation": "Uses psychological pressure words (immediately) to force hasty decisions without verification.",
+        "tag": "Psychological"
+      },
+      {
+        "id": "rf-payment",
+        "title": "Unverified Payment Demand",
+        "severity": "HIGH",
+        "explanation": "Requests upfront payment or money transfer (pay, upi) under a pretext or processing fee.",
+        "tag": "Financial"
+      },
+      {
+        "id": "rf-impersonation",
+        "title": "Brand / Authority Impersonation",
+        "severity": "HIGH",
+        "explanation": "Claims affiliation with recognized brand or institution (AXIS).",
+        "tag": "Identity Spoofing"
+      },
+      {
+        "id": "rf-prize",
+        "title": "Lottery / Prize Bait",
+        "severity": "HIGH",
+        "explanation": "Promises high rewards, unprompted lottery winnings, or lucrative windfalls requiring upfront fees or data entry.",
+        "tag": "Social Engineering"
+      }
+    ],
+    "evidence": [
+      "Detected artificial urgency phrasing designed to induce panic",
+      "Demands financial transaction or advance processing fee",
+      "Cites recognized institution (AXIS) without legitimate provenance",
+      "Offers unprompted high-value prize or lucky draw reward",
+      "Multiple concurrent fraud indicators detected across urgency, credentials, and domain"
+    ],
+    "recommendations": [
+      "Do not click any embedded links or download attachments from this sender.",
+      "Never disclose your OTP, PIN, password, or UPI MPIN to anyone under any circumstance.",
+      "Do not transfer money or pay \"processing fees\" to unlock accounts or claim deliveries.",
+      "Block the sender on your messaging platform or phone dialer.",
+      "Report the message to national cyber crime authorities (e.g., cybercrime.gov.in / 1930 in India).",
+      "Contact the official customer support directly via their verified website or app."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": true,
+        "manipulationTactics": [
+          "Time Pressure",
+          "Panic Inducement"
+        ],
+        "sentiment": "High Urgency",
+        "summary": "Linguistic analysis detected overt urgency and emotional manipulation tactics."
+      },
+      "urlInvestigator": {
+        "hasUrl": false,
+        "domain": "None detected",
+        "isHttps": false,
+        "domainMismatch": false,
+        "suspiciousTld": false,
+        "summary": "No hostile domain indicators found."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": "AXIS",
+        "financialCoercion": true,
+        "credentialHarvesting": false,
+        "summary": "Sender impersonates AXIS to leverage brand trust for unauthorized data acquisition."
+      },
+      "riskAnalyst": {
+        "baseScore": 80,
+        "ruleSignals": [
+          {
+            "rule": "Urgency Language Manipulation",
+            "points": 15
+          },
+          {
+            "rule": "Unsolicited Financial Demands",
+            "points": 20
+          },
+          {
+            "rule": "Brand / Authority Impersonation",
+            "points": 20
+          },
+          {
+            "rule": "Unsolicited Prize / Reward Bait",
+            "points": 15
+          },
+          {
+            "rule": "Compound Multi-Vector Attack",
+            "points": 10
+          }
+        ],
+        "totalCalculated": 80
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This message is a fraudulent attempt to compromise your accounts or steal funds. Do not respond or click any attached links.",
+        "actionAdvice": "Block the sender, avoid sharing verification codes, and report this communication immediately."
+      }
+    },
+    "timelineMs": 320,
+    "engineUsed": "Rule-Based Engine (Demo / Fallback)"
+  },
+  {
+    "id": "tg-1789215868884-y8bz6",
+    "timestamp": "2026-09-12T12:24:28.884Z",
+    "inputType": "text",
+    "inputData": "Your Amazon package delivery could not be completed due to wrong address pin. Pay ₹39 rescheduling charge at: http://amazon-delivery-status.top",
+    "risk_score": 100,
+    "risk_level": "CRITICAL",
+    "category": "Delivery Scam",
+    "confidence": 88,
+    "summary": "TrustGuard evaluated this text via multi-agent heuristic inspection. Detected 4 significant fraud indicators.",
+    "red_flags": [
+      {
+        "id": "rf-creds",
+        "title": "Credential Harvesting Request",
+        "severity": "CRITICAL",
+        "explanation": "Demands confidential security tokens or credentials (pin). Legitimate organizations never request your OTP or PIN.",
+        "tag": "Data Theft"
+      },
+      {
+        "id": "rf-payment",
+        "title": "Unverified Payment Demand",
+        "severity": "HIGH",
+        "explanation": "Requests upfront payment or money transfer (pay) under a pretext or processing fee.",
+        "tag": "Financial"
+      },
+      {
+        "id": "rf-impersonation",
+        "title": "Brand / Authority Impersonation",
+        "severity": "HIGH",
+        "explanation": "Claims affiliation with recognized brand or institution (AMAZON).",
+        "tag": "Identity Spoofing"
+      },
+      {
+        "id": "rf-url",
+        "title": "Deceptive or High-Risk Link",
+        "severity": "CRITICAL",
+        "explanation": "Link exhibits high-risk indicators (High-risk TLD). Likely designed to mimic official portals to harvest credentials.",
+        "tag": "Phishing Link"
+      }
+    ],
+    "evidence": [
+      "Requests user password, PIN, or one-time verification code",
+      "Demands financial transaction or advance processing fee",
+      "Cites recognized institution (AMAZON) without legitimate provenance",
+      "URL contains suspicious attributes: High-risk TLD",
+      "Multiple concurrent fraud indicators detected across urgency, credentials, and domain"
+    ],
+    "recommendations": [
+      "Do not click any embedded links or download attachments from this sender.",
+      "Never disclose your OTP, PIN, password, or UPI MPIN to anyone under any circumstance.",
+      "Do not transfer money or pay \"processing fees\" to unlock accounts or claim deliveries.",
+      "Block the sender on your messaging platform or phone dialer.",
+      "Report the message to national cyber crime authorities (e.g., cybercrime.gov.in / 1930 in India).",
+      "Contact the official customer support directly via their verified website or app."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": false,
+        "manipulationTactics": [
+          "None identified"
+        ],
+        "sentiment": "Neutral",
+        "summary": "Tone appears normal with no obvious psychological coercion."
+      },
+      "urlInvestigator": {
+        "hasUrl": true,
+        "domain": "http://amazon-delivery-status.top",
+        "isHttps": false,
+        "domainMismatch": true,
+        "suspiciousTld": true,
+        "summary": "URL points to an unofficial or spoofed domain designed to deceive users."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": "AMAZON",
+        "financialCoercion": true,
+        "credentialHarvesting": true,
+        "summary": "Sender impersonates AMAZON to leverage brand trust for unauthorized data acquisition."
+      },
+      "riskAnalyst": {
+        "baseScore": 100,
+        "ruleSignals": [
+          {
+            "rule": "Credential Harvesting Attempt",
+            "points": 25
+          },
+          {
+            "rule": "Unsolicited Financial Demands",
+            "points": 20
+          },
+          {
+            "rule": "Brand / Authority Impersonation",
+            "points": 20
+          },
+          {
+            "rule": "Suspicious Domain / Link Detected",
+            "points": 25
+          },
+          {
+            "rule": "Compound Multi-Vector Attack",
+            "points": 10
+          }
+        ],
+        "totalCalculated": 100
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This message is a fraudulent attempt to compromise your accounts or steal funds. Do not respond or click any attached links.",
+        "actionAdvice": "Block the sender, avoid sharing verification codes, and report this communication immediately."
+      }
+    },
+    "timelineMs": 320,
+    "engineUsed": "Rule-Based Engine (Demo / Fallback)"
+  },
+  {
+    "id": "tg-1789215862837-2wbt1",
+    "timestamp": "2026-09-12T12:24:22.837Z",
+    "inputType": "text",
+    "inputData": "Your Amazon package delivery could not be completed due to wrong address pin. Pay ₹39 rescheduling charge at: http://amazon-delivery-status.top",
+    "risk_score": 100,
+    "risk_level": "CRITICAL",
+    "category": "Delivery Scam",
+    "confidence": 88,
+    "summary": "TrustGuard evaluated this text via multi-agent heuristic inspection. Detected 4 significant fraud indicators.",
+    "red_flags": [
+      {
+        "id": "rf-creds",
+        "title": "Credential Harvesting Request",
+        "severity": "CRITICAL",
+        "explanation": "Demands confidential security tokens or credentials (pin). Legitimate organizations never request your OTP or PIN.",
+        "tag": "Data Theft"
+      },
+      {
+        "id": "rf-payment",
+        "title": "Unverified Payment Demand",
+        "severity": "HIGH",
+        "explanation": "Requests upfront payment or money transfer (pay) under a pretext or processing fee.",
+        "tag": "Financial"
+      },
+      {
+        "id": "rf-impersonation",
+        "title": "Brand / Authority Impersonation",
+        "severity": "HIGH",
+        "explanation": "Claims affiliation with recognized brand or institution (AMAZON).",
+        "tag": "Identity Spoofing"
+      },
+      {
+        "id": "rf-url",
+        "title": "Deceptive or High-Risk Link",
+        "severity": "CRITICAL",
+        "explanation": "Link exhibits high-risk indicators (High-risk TLD). Likely designed to mimic official portals to harvest credentials.",
+        "tag": "Phishing Link"
+      }
+    ],
+    "evidence": [
+      "Requests user password, PIN, or one-time verification code",
+      "Demands financial transaction or advance processing fee",
+      "Cites recognized institution (AMAZON) without legitimate provenance",
+      "URL contains suspicious attributes: High-risk TLD",
+      "Multiple concurrent fraud indicators detected across urgency, credentials, and domain"
+    ],
+    "recommendations": [
+      "Do not click any embedded links or download attachments from this sender.",
+      "Never disclose your OTP, PIN, password, or UPI MPIN to anyone under any circumstance.",
+      "Do not transfer money or pay \"processing fees\" to unlock accounts or claim deliveries.",
+      "Block the sender on your messaging platform or phone dialer.",
+      "Report the message to national cyber crime authorities (e.g., cybercrime.gov.in / 1930 in India).",
+      "Contact the official customer support directly via their verified website or app."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": false,
+        "manipulationTactics": [
+          "None identified"
+        ],
+        "sentiment": "Neutral",
+        "summary": "Tone appears normal with no obvious psychological coercion."
+      },
+      "urlInvestigator": {
+        "hasUrl": true,
+        "domain": "http://amazon-delivery-status.top",
+        "isHttps": false,
+        "domainMismatch": true,
+        "suspiciousTld": true,
+        "summary": "URL points to an unofficial or spoofed domain designed to deceive users."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": "AMAZON",
+        "financialCoercion": true,
+        "credentialHarvesting": true,
+        "summary": "Sender impersonates AMAZON to leverage brand trust for unauthorized data acquisition."
+      },
+      "riskAnalyst": {
+        "baseScore": 100,
+        "ruleSignals": [
+          {
+            "rule": "Credential Harvesting Attempt",
+            "points": 25
+          },
+          {
+            "rule": "Unsolicited Financial Demands",
+            "points": 20
+          },
+          {
+            "rule": "Brand / Authority Impersonation",
+            "points": 20
+          },
+          {
+            "rule": "Suspicious Domain / Link Detected",
+            "points": 25
+          },
+          {
+            "rule": "Compound Multi-Vector Attack",
+            "points": 10
+          }
+        ],
+        "totalCalculated": 100
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This message is a fraudulent attempt to compromise your accounts or steal funds. Do not respond or click any attached links.",
+        "actionAdvice": "Block the sender, avoid sharing verification codes, and report this communication immediately."
+      }
+    },
+    "timelineMs": 320,
+    "engineUsed": "Rule-Based Engine (Demo / Fallback)"
+  },
+  {
+    "id": "tg-1789215345484-nehc8",
+    "timestamp": "2026-09-12T12:15:45.484Z",
+    "inputType": "text",
+    "inputData": "Your Amazon package delivery could not be completed due to wrong address pin. Pay ₹39 rescheduling charge at: http://amazon-delivery-status.top",
+    "risk_score": 100,
+    "risk_level": "CRITICAL",
+    "category": "Delivery Scam",
+    "confidence": 88,
+    "summary": "TrustGuard evaluated this text via multi-agent heuristic inspection. Detected 4 significant fraud indicators.",
+    "red_flags": [
+      {
+        "id": "rf-creds",
+        "title": "Credential Harvesting Request",
+        "severity": "CRITICAL",
+        "explanation": "Demands confidential security tokens or credentials (pin). Legitimate organizations never request your OTP or PIN.",
+        "tag": "Data Theft"
+      },
+      {
+        "id": "rf-payment",
+        "title": "Unverified Payment Demand",
+        "severity": "HIGH",
+        "explanation": "Requests upfront payment or money transfer (pay) under a pretext or processing fee.",
+        "tag": "Financial"
+      },
+      {
+        "id": "rf-impersonation",
+        "title": "Brand / Authority Impersonation",
+        "severity": "HIGH",
+        "explanation": "Claims affiliation with recognized brand or institution (AMAZON).",
+        "tag": "Identity Spoofing"
+      },
+      {
+        "id": "rf-url",
+        "title": "Deceptive or High-Risk Link",
+        "severity": "CRITICAL",
+        "explanation": "Link exhibits high-risk indicators (High-risk TLD). Likely designed to mimic official portals to harvest credentials.",
+        "tag": "Phishing Link"
+      }
+    ],
+    "evidence": [
+      "Requests user password, PIN, or one-time verification code",
+      "Demands financial transaction or advance processing fee",
+      "Cites recognized institution (AMAZON) without legitimate provenance",
+      "URL contains suspicious attributes: High-risk TLD",
+      "Multiple concurrent fraud indicators detected across urgency, credentials, and domain"
+    ],
+    "recommendations": [
+      "Do not click any embedded links or download attachments from this sender.",
+      "Never disclose your OTP, PIN, password, or UPI MPIN to anyone under any circumstance.",
+      "Do not transfer money or pay \"processing fees\" to unlock accounts or claim deliveries.",
+      "Block the sender on your messaging platform or phone dialer.",
+      "Report the message to national cyber crime authorities (e.g., cybercrime.gov.in / 1930 in India).",
+      "Contact the official customer support directly via their verified website or app."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": false,
+        "manipulationTactics": [
+          "None identified"
+        ],
+        "sentiment": "Neutral",
+        "summary": "Tone appears normal with no obvious psychological coercion."
+      },
+      "urlInvestigator": {
+        "hasUrl": true,
+        "domain": "http://amazon-delivery-status.top",
+        "isHttps": false,
+        "domainMismatch": true,
+        "suspiciousTld": true,
+        "summary": "URL points to an unofficial or spoofed domain designed to deceive users."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": "AMAZON",
+        "financialCoercion": true,
+        "credentialHarvesting": true,
+        "summary": "Sender impersonates AMAZON to leverage brand trust for unauthorized data acquisition."
+      },
+      "riskAnalyst": {
+        "baseScore": 100,
+        "ruleSignals": [
+          {
+            "rule": "Credential Harvesting Attempt",
+            "points": 25
+          },
+          {
+            "rule": "Unsolicited Financial Demands",
+            "points": 20
+          },
+          {
+            "rule": "Brand / Authority Impersonation",
+            "points": 20
+          },
+          {
+            "rule": "Suspicious Domain / Link Detected",
+            "points": 25
+          },
+          {
+            "rule": "Compound Multi-Vector Attack",
+            "points": 10
+          }
+        ],
+        "totalCalculated": 100
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This message is a fraudulent attempt to compromise your accounts or steal funds. Do not respond or click any attached links.",
+        "actionAdvice": "Block the sender, avoid sharing verification codes, and report this communication immediately."
+      }
+    },
+    "timelineMs": 320,
+    "engineUsed": "Rule-Based Engine (Demo / Fallback)"
+  },
+  {
+    "id": "tg-1789215331955-g12di",
+    "timestamp": "2026-09-12T12:15:31.955Z",
+    "inputType": "text",
+    "inputData": "URGENT! Your SBI account will be blocked today. Complete KYC immediately at https://sbi-verification-update-kyc.com/login to avoid suspension.",
+    "risk_score": 85,
+    "risk_level": "HIGH",
+    "category": "KYC Scam",
+    "confidence": 88,
+    "summary": "TrustGuard evaluated this text via multi-agent heuristic inspection. Detected 4 significant fraud indicators.",
+    "red_flags": [
+      {
+        "id": "rf-urgency",
+        "title": "Urgency Manipulation",
+        "severity": "HIGH",
+        "explanation": "Uses psychological pressure words (urgent, immediately, blocked today) to force hasty decisions without verification.",
+        "tag": "Psychological"
+      },
+      {
+        "id": "rf-impersonation",
+        "title": "Brand / Authority Impersonation",
+        "severity": "HIGH",
+        "explanation": "Claims affiliation with recognized brand or institution (SBI).",
+        "tag": "Identity Spoofing"
+      },
+      {
+        "id": "rf-kyc",
+        "title": "Urgent KYC Verification Pretext",
+        "severity": "HIGH",
+        "explanation": "Uses KYC / PAN / Aadhaar compliance as a fraudulent pretext to extract confidential identity documents.",
+        "tag": "KYC Fraud"
+      },
+      {
+        "id": "rf-url",
+        "title": "Deceptive or High-Risk Link",
+        "severity": "CRITICAL",
+        "explanation": "Link exhibits high-risk indicators (Deceptive domain structure). Likely designed to mimic official portals to harvest credentials.",
+        "tag": "Phishing Link"
+      }
+    ],
+    "evidence": [
+      "Detected artificial urgency phrasing designed to induce panic",
+      "Cites recognized institution (SBI) without legitimate provenance",
+      "Exploits regulatory KYC compliance as an urgency trigger",
+      "URL contains suspicious attributes: Deceptive domain structure",
+      "Multiple concurrent fraud indicators detected across urgency, credentials, and domain"
+    ],
+    "recommendations": [
+      "Do not click any embedded links or download attachments from this sender.",
+      "Never disclose your OTP, PIN, password, or UPI MPIN to anyone under any circumstance.",
+      "Do not transfer money or pay \"processing fees\" to unlock accounts or claim deliveries.",
+      "Block the sender on your messaging platform or phone dialer.",
+      "Report the message to national cyber crime authorities (e.g., cybercrime.gov.in / 1930 in India).",
+      "Contact the official customer support directly via their verified website or app."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": true,
+        "manipulationTactics": [
+          "Time Pressure",
+          "Panic Inducement"
+        ],
+        "sentiment": "High Urgency",
+        "summary": "Linguistic analysis detected overt urgency and emotional manipulation tactics."
+      },
+      "urlInvestigator": {
+        "hasUrl": true,
+        "domain": "https://sbi-verification-update-kyc.com/login",
+        "isHttps": true,
+        "domainMismatch": true,
+        "suspiciousTld": true,
+        "summary": "URL points to an unofficial or spoofed domain designed to deceive users."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": "SBI",
+        "financialCoercion": false,
+        "credentialHarvesting": false,
+        "summary": "Sender impersonates SBI to leverage brand trust for unauthorized data acquisition."
+      },
+      "riskAnalyst": {
+        "baseScore": 85,
+        "ruleSignals": [
+          {
+            "rule": "Urgency Language Manipulation",
+            "points": 15
+          },
+          {
+            "rule": "Brand / Authority Impersonation",
+            "points": 20
+          },
+          {
+            "rule": "KYC Verification Pretext",
+            "points": 15
+          },
+          {
+            "rule": "Suspicious Domain / Link Detected",
+            "points": 25
+          },
+          {
+            "rule": "Compound Multi-Vector Attack",
+            "points": 10
+          }
+        ],
+        "totalCalculated": 85
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This message is a fraudulent attempt to compromise your accounts or steal funds. Do not respond or click any attached links.",
+        "actionAdvice": "Block the sender, avoid sharing verification codes, and report this communication immediately."
+      }
+    },
+    "timelineMs": 320,
+    "engineUsed": "Rule-Based Engine (Demo / Fallback)"
+  },
+  {
+    "id": "tg-1789215325414-3umxq",
+    "timestamp": "2026-09-12T12:15:25.414Z",
+    "inputType": "text",
+    "inputData": "Up to Rs.70,000 is ready to be credited. EMI from Rs.1000. Just complete your 2-min KYC - http://Kx10.in/FINPLO/h1SsEB FinVen",
+    "risk_score": 40,
+    "risk_level": "LOW",
+    "category": "KYC Scam",
+    "confidence": 88,
+    "summary": "TrustGuard evaluated this text via multi-agent heuristic inspection. Detected 2 significant fraud indicators.",
+    "red_flags": [
+      {
+        "id": "rf-kyc",
+        "title": "Urgent KYC Verification Pretext",
+        "severity": "HIGH",
+        "explanation": "Uses KYC / PAN / Aadhaar compliance as a fraudulent pretext to extract confidential identity documents.",
+        "tag": "KYC Fraud"
+      },
+      {
+        "id": "rf-url",
+        "title": "Deceptive or High-Risk Link",
+        "severity": "CRITICAL",
+        "explanation": "Link exhibits high-risk indicators (Unencrypted HTTP protocol). Likely designed to mimic official portals to harvest credentials.",
+        "tag": "Phishing Link"
+      }
+    ],
+    "evidence": [
+      "Exploits regulatory KYC compliance as an urgency trigger",
+      "URL contains suspicious attributes: Unencrypted HTTP protocol"
+    ],
+    "recommendations": [
+      "No critical threat markers detected. The content matches normal communication patterns.",
+      "As a routine security hygiene practice, always verify sensitive financial requests directly.",
+      "Keep your device security software and mobile operating system updated."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": false,
+        "manipulationTactics": [
+          "None identified"
+        ],
+        "sentiment": "Neutral",
+        "summary": "Tone appears normal with no obvious psychological coercion."
+      },
+      "urlInvestigator": {
+        "hasUrl": true,
+        "domain": "http://Kx10.in/FINPLO/h1SsEB",
+        "isHttps": false,
+        "domainMismatch": true,
+        "suspiciousTld": true,
+        "summary": "URL points to an unofficial or spoofed domain designed to deceive users."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": null,
+        "financialCoercion": false,
+        "credentialHarvesting": false,
+        "summary": "No specific corporate brand identity claimed."
+      },
+      "riskAnalyst": {
+        "baseScore": 40,
+        "ruleSignals": [
+          {
+            "rule": "KYC Verification Pretext",
+            "points": 15
+          },
+          {
+            "rule": "Suspicious Domain / Link Detected",
+            "points": 25
+          }
+        ],
+        "totalCalculated": 40
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This communication appears benign, with no typical scam patterns identified.",
+        "actionAdvice": "Verify through official customer support if you suspect any irregularities."
+      }
+    },
+    "timelineMs": 320,
+    "engineUsed": "Rule-Based Engine (Demo / Fallback)"
+  },
+  {
+    "id": "tg-1789215278140-eol4u",
+    "timestamp": "2026-09-12T12:14:38.140Z",
+    "inputType": "text",
+    "inputData": "Congratulations! You have won ₹25,00,000 in the KBC lucky draw. Pay ₹4,999 registration fee immediately to claim your prize via UPI to winner@okaxis",
+    "risk_score": 80,
+    "risk_level": "HIGH",
+    "category": "Lottery/Prize Scam",
+    "confidence": 88,
+    "summary": "TrustGuard evaluated this text via multi-agent heuristic inspection. Detected 4 significant fraud indicators.",
+    "red_flags": [
+      {
+        "id": "rf-urgency",
+        "title": "Urgency Manipulation",
+        "severity": "HIGH",
+        "explanation": "Uses psychological pressure words (immediately) to force hasty decisions without verification.",
+        "tag": "Psychological"
+      },
+      {
+        "id": "rf-payment",
+        "title": "Unverified Payment Demand",
+        "severity": "HIGH",
+        "explanation": "Requests upfront payment or money transfer (pay, upi) under a pretext or processing fee.",
+        "tag": "Financial"
+      },
+      {
+        "id": "rf-impersonation",
+        "title": "Brand / Authority Impersonation",
+        "severity": "HIGH",
+        "explanation": "Claims affiliation with recognized brand or institution (AXIS).",
+        "tag": "Identity Spoofing"
+      },
+      {
+        "id": "rf-prize",
+        "title": "Lottery / Prize Bait",
+        "severity": "HIGH",
+        "explanation": "Promises high rewards, unprompted lottery winnings, or lucrative windfalls requiring upfront fees or data entry.",
+        "tag": "Social Engineering"
+      }
+    ],
+    "evidence": [
+      "Detected artificial urgency phrasing designed to induce panic",
+      "Demands financial transaction or advance processing fee",
+      "Cites recognized institution (AXIS) without legitimate provenance",
+      "Offers unprompted high-value prize or lucky draw reward",
+      "Multiple concurrent fraud indicators detected across urgency, credentials, and domain"
+    ],
+    "recommendations": [
+      "Do not click any embedded links or download attachments from this sender.",
+      "Never disclose your OTP, PIN, password, or UPI MPIN to anyone under any circumstance.",
+      "Do not transfer money or pay \"processing fees\" to unlock accounts or claim deliveries.",
+      "Block the sender on your messaging platform or phone dialer.",
+      "Report the message to national cyber crime authorities (e.g., cybercrime.gov.in / 1930 in India).",
+      "Contact the official customer support directly via their verified website or app."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": true,
+        "manipulationTactics": [
+          "Time Pressure",
+          "Panic Inducement"
+        ],
+        "sentiment": "High Urgency",
+        "summary": "Linguistic analysis detected overt urgency and emotional manipulation tactics."
+      },
+      "urlInvestigator": {
+        "hasUrl": false,
+        "domain": "None detected",
+        "isHttps": false,
+        "domainMismatch": false,
+        "suspiciousTld": false,
+        "summary": "No hostile domain indicators found."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": "AXIS",
+        "financialCoercion": true,
+        "credentialHarvesting": false,
+        "summary": "Sender impersonates AXIS to leverage brand trust for unauthorized data acquisition."
+      },
+      "riskAnalyst": {
+        "baseScore": 80,
+        "ruleSignals": [
+          {
+            "rule": "Urgency Language Manipulation",
+            "points": 15
+          },
+          {
+            "rule": "Unsolicited Financial Demands",
+            "points": 20
+          },
+          {
+            "rule": "Brand / Authority Impersonation",
+            "points": 20
+          },
+          {
+            "rule": "Unsolicited Prize / Reward Bait",
+            "points": 15
+          },
+          {
+            "rule": "Compound Multi-Vector Attack",
+            "points": 10
+          }
+        ],
+        "totalCalculated": 80
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This message is a fraudulent attempt to compromise your accounts or steal funds. Do not respond or click any attached links.",
+        "actionAdvice": "Block the sender, avoid sharing verification codes, and report this communication immediately."
+      }
+    },
+    "timelineMs": 320,
+    "engineUsed": "Rule-Based Engine (Demo / Fallback)"
+  },
+  {
+    "id": "tg-1789214948832-a1hrr",
+    "timestamp": "2026-09-12T12:09:08.832Z",
+    "inputType": "text",
+    "inputData": "Congratulations! You have won ₹25,00,000 in the KBC lucky draw. Pay ₹4,999 registration fee immediately to claim your prize via UPI to winner@okaxis",
+    "risk_score": 80,
+    "risk_level": "HIGH",
+    "category": "Lottery/Prize Scam",
+    "confidence": 88,
+    "summary": "TrustGuard evaluated this text via multi-agent heuristic inspection. Detected 4 significant fraud indicators.",
+    "red_flags": [
+      {
+        "id": "rf-urgency",
+        "title": "Urgency Manipulation",
+        "severity": "HIGH",
+        "explanation": "Uses psychological pressure words (immediately) to force hasty decisions without verification.",
+        "tag": "Psychological"
+      },
+      {
+        "id": "rf-payment",
+        "title": "Unverified Payment Demand",
+        "severity": "HIGH",
+        "explanation": "Requests upfront payment or money transfer (pay, upi) under a pretext or processing fee.",
+        "tag": "Financial"
+      },
+      {
+        "id": "rf-impersonation",
+        "title": "Brand / Authority Impersonation",
+        "severity": "HIGH",
+        "explanation": "Claims affiliation with recognized brand or institution (AXIS).",
+        "tag": "Identity Spoofing"
+      },
+      {
+        "id": "rf-prize",
+        "title": "Lottery / Prize Bait",
+        "severity": "HIGH",
+        "explanation": "Promises high rewards, unprompted lottery winnings, or lucrative windfalls requiring upfront fees or data entry.",
+        "tag": "Social Engineering"
+      }
+    ],
+    "evidence": [
+      "Detected artificial urgency phrasing designed to induce panic",
+      "Demands financial transaction or advance processing fee",
+      "Cites recognized institution (AXIS) without legitimate provenance",
+      "Offers unprompted high-value prize or lucky draw reward",
+      "Multiple concurrent fraud indicators detected across urgency, credentials, and domain"
+    ],
+    "recommendations": [
+      "Do not click any embedded links or download attachments from this sender.",
+      "Never disclose your OTP, PIN, password, or UPI MPIN to anyone under any circumstance.",
+      "Do not transfer money or pay \"processing fees\" to unlock accounts or claim deliveries.",
+      "Block the sender on your messaging platform or phone dialer.",
+      "Report the message to national cyber crime authorities (e.g., cybercrime.gov.in / 1930 in India).",
+      "Contact the official customer support directly via their verified website or app."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": true,
+        "manipulationTactics": [
+          "Time Pressure",
+          "Panic Inducement"
+        ],
+        "sentiment": "High Urgency",
+        "summary": "Linguistic analysis detected overt urgency and emotional manipulation tactics."
+      },
+      "urlInvestigator": {
+        "hasUrl": false,
+        "domain": "None detected",
+        "isHttps": false,
+        "domainMismatch": false,
+        "suspiciousTld": false,
+        "summary": "No hostile domain indicators found."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": "AXIS",
+        "financialCoercion": true,
+        "credentialHarvesting": false,
+        "summary": "Sender impersonates AXIS to leverage brand trust for unauthorized data acquisition."
+      },
+      "riskAnalyst": {
+        "baseScore": 80,
+        "ruleSignals": [
+          {
+            "rule": "Urgency Language Manipulation",
+            "points": 15
+          },
+          {
+            "rule": "Unsolicited Financial Demands",
+            "points": 20
+          },
+          {
+            "rule": "Brand / Authority Impersonation",
+            "points": 20
+          },
+          {
+            "rule": "Unsolicited Prize / Reward Bait",
+            "points": 15
+          },
+          {
+            "rule": "Compound Multi-Vector Attack",
+            "points": 10
+          }
+        ],
+        "totalCalculated": 80
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This message is a fraudulent attempt to compromise your accounts or steal funds. Do not respond or click any attached links.",
+        "actionAdvice": "Block the sender, avoid sharing verification codes, and report this communication immediately."
+      }
+    },
+    "timelineMs": 320,
+    "engineUsed": "Rule-Based Engine (Demo / Fallback)"
+  },
+  {
+    "id": "tg-1789194600820-wi6sg",
+    "timestamp": "2026-09-12T06:30:00.820Z",
+    "inputType": "text",
+    "inputData": "Up to Rs.70,000 is ready to be credited. EMI from Rs.1000. Just complete your 2-min KYC - http://Kx10.in/FINPLO/h1SsEB FinVen",
+    "risk_score": 40,
+    "risk_level": "LOW",
+    "category": "KYC Scam",
+    "confidence": 88,
+    "summary": "TrustGuard evaluated this text via multi-agent heuristic inspection. Detected 2 significant fraud indicators.",
+    "red_flags": [
+      {
+        "id": "rf-kyc",
+        "title": "Urgent KYC Verification Pretext",
+        "severity": "HIGH",
+        "explanation": "Uses KYC / PAN / Aadhaar compliance as a fraudulent pretext to extract confidential identity documents.",
+        "tag": "KYC Fraud"
+      },
+      {
+        "id": "rf-url",
+        "title": "Deceptive or High-Risk Link",
+        "severity": "CRITICAL",
+        "explanation": "Link exhibits high-risk indicators (Unencrypted HTTP protocol). Likely designed to mimic official portals to harvest credentials.",
+        "tag": "Phishing Link"
+      }
+    ],
+    "evidence": [
+      "Exploits regulatory KYC compliance as an urgency trigger",
+      "URL contains suspicious attributes: Unencrypted HTTP protocol"
+    ],
+    "recommendations": [
+      "No critical threat markers detected. The content matches normal communication patterns.",
+      "As a routine security hygiene practice, always verify sensitive financial requests directly.",
+      "Keep your device security software and mobile operating system updated."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": false,
+        "manipulationTactics": [
+          "None identified"
+        ],
+        "sentiment": "Neutral",
+        "summary": "Tone appears normal with no obvious psychological coercion."
+      },
+      "urlInvestigator": {
+        "hasUrl": true,
+        "domain": "http://Kx10.in/FINPLO/h1SsEB",
+        "isHttps": false,
+        "domainMismatch": true,
+        "suspiciousTld": true,
+        "summary": "URL points to an unofficial or spoofed domain designed to deceive users."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": null,
+        "financialCoercion": false,
+        "credentialHarvesting": false,
+        "summary": "No specific corporate brand identity claimed."
+      },
+      "riskAnalyst": {
+        "baseScore": 40,
+        "ruleSignals": [
+          {
+            "rule": "KYC Verification Pretext",
+            "points": 15
+          },
+          {
+            "rule": "Suspicious Domain / Link Detected",
+            "points": 25
+          }
+        ],
+        "totalCalculated": 40
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This communication appears benign, with no typical scam patterns identified.",
+        "actionAdvice": "Verify through official customer support if you suspect any irregularities."
+      }
+    },
+    "timelineMs": 320,
+    "engineUsed": "Rule-Based Engine (Demo / Fallback)"
+  },
+  {
+    "id": "tg-1789194547256-h68t6",
+    "timestamp": "2026-09-12T06:29:07.256Z",
+    "inputType": "text",
+    "inputData": "Up to Rs.70,000 is ready to be credited. EMI from Rs.1000. Just complete your 2-min KYC - http://Kx10.in/FINPLO/h1SsEB FinVen",
+    "risk_score": 40,
+    "risk_level": "LOW",
+    "category": "KYC Scam",
+    "confidence": 88,
+    "summary": "TrustGuard evaluated this text via multi-agent heuristic inspection. Detected 2 significant fraud indicators.",
+    "red_flags": [
+      {
+        "id": "rf-kyc",
+        "title": "Urgent KYC Verification Pretext",
+        "severity": "HIGH",
+        "explanation": "Uses KYC / PAN / Aadhaar compliance as a fraudulent pretext to extract confidential identity documents.",
+        "tag": "KYC Fraud"
+      },
+      {
+        "id": "rf-url",
+        "title": "Deceptive or High-Risk Link",
+        "severity": "CRITICAL",
+        "explanation": "Link exhibits high-risk indicators (Unencrypted HTTP protocol). Likely designed to mimic official portals to harvest credentials.",
+        "tag": "Phishing Link"
+      }
+    ],
+    "evidence": [
+      "Exploits regulatory KYC compliance as an urgency trigger",
+      "URL contains suspicious attributes: Unencrypted HTTP protocol"
+    ],
+    "recommendations": [
+      "No critical threat markers detected. The content matches normal communication patterns.",
+      "As a routine security hygiene practice, always verify sensitive financial requests directly.",
+      "Keep your device security software and mobile operating system updated."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": false,
+        "manipulationTactics": [
+          "None identified"
+        ],
+        "sentiment": "Neutral",
+        "summary": "Tone appears normal with no obvious psychological coercion."
+      },
+      "urlInvestigator": {
+        "hasUrl": true,
+        "domain": "http://Kx10.in/FINPLO/h1SsEB",
+        "isHttps": false,
+        "domainMismatch": true,
+        "suspiciousTld": true,
+        "summary": "URL points to an unofficial or spoofed domain designed to deceive users."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": null,
+        "financialCoercion": false,
+        "credentialHarvesting": false,
+        "summary": "No specific corporate brand identity claimed."
+      },
+      "riskAnalyst": {
+        "baseScore": 40,
+        "ruleSignals": [
+          {
+            "rule": "KYC Verification Pretext",
+            "points": 15
+          },
+          {
+            "rule": "Suspicious Domain / Link Detected",
+            "points": 25
+          }
+        ],
+        "totalCalculated": 40
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This communication appears benign, with no typical scam patterns identified.",
+        "actionAdvice": "Verify through official customer support if you suspect any irregularities."
+      }
+    },
+    "timelineMs": 320,
+    "engineUsed": "Rule-Based Engine (Demo / Fallback)"
+  },
+  {
+    "id": "tg-1789194526280-dapqo",
+    "timestamp": "2026-09-12T06:28:46.280Z",
+    "inputType": "text",
+    "inputData": "Up to Rs.70,000 is ready to be credited. EMI from Rs.1000. Just complete your 2-min KYC - http://Kx10.in/FINPLO/h1SsEB FinVen\n",
+    "risk_score": 40,
+    "risk_level": "LOW",
+    "category": "KYC Scam",
+    "confidence": 88,
+    "summary": "TrustGuard evaluated this text via multi-agent heuristic inspection. Detected 2 significant fraud indicators.",
+    "red_flags": [
+      {
+        "id": "rf-kyc",
+        "title": "Urgent KYC Verification Pretext",
+        "severity": "HIGH",
+        "explanation": "Uses KYC / PAN / Aadhaar compliance as a fraudulent pretext to extract confidential identity documents.",
+        "tag": "KYC Fraud"
+      },
+      {
+        "id": "rf-url",
+        "title": "Deceptive or High-Risk Link",
+        "severity": "CRITICAL",
+        "explanation": "Link exhibits high-risk indicators (Unencrypted HTTP protocol). Likely designed to mimic official portals to harvest credentials.",
+        "tag": "Phishing Link"
+      }
+    ],
+    "evidence": [
+      "Exploits regulatory KYC compliance as an urgency trigger",
+      "URL contains suspicious attributes: Unencrypted HTTP protocol"
+    ],
+    "recommendations": [
+      "No critical threat markers detected. The content matches normal communication patterns.",
+      "As a routine security hygiene practice, always verify sensitive financial requests directly.",
+      "Keep your device security software and mobile operating system updated."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": false,
+        "manipulationTactics": [
+          "None identified"
+        ],
+        "sentiment": "Neutral",
+        "summary": "Tone appears normal with no obvious psychological coercion."
+      },
+      "urlInvestigator": {
+        "hasUrl": true,
+        "domain": "http://Kx10.in/FINPLO/h1SsEB",
+        "isHttps": false,
+        "domainMismatch": true,
+        "suspiciousTld": true,
+        "summary": "URL points to an unofficial or spoofed domain designed to deceive users."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": null,
+        "financialCoercion": false,
+        "credentialHarvesting": false,
+        "summary": "No specific corporate brand identity claimed."
+      },
+      "riskAnalyst": {
+        "baseScore": 40,
+        "ruleSignals": [
+          {
+            "rule": "KYC Verification Pretext",
+            "points": 15
+          },
+          {
+            "rule": "Suspicious Domain / Link Detected",
+            "points": 25
+          }
+        ],
+        "totalCalculated": 40
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This communication appears benign, with no typical scam patterns identified.",
+        "actionAdvice": "Verify through official customer support if you suspect any irregularities."
+      }
+    },
+    "timelineMs": 320,
+    "engineUsed": "Rule-Based Engine (Demo / Fallback)"
+  },
+  {
+    "id": "tg-1789194307193-hxbz0",
+    "timestamp": "2026-09-12T06:25:07.193Z",
+    "inputType": "text",
+    "inputData": "Congratulations! You have won ₹25,00,000 in the KBC lucky draw. Pay ₹4,999 registration fee immediately to claim your prize via UPI to winner@okaxis",
+    "risk_score": 80,
+    "risk_level": "HIGH",
+    "category": "Lottery/Prize Scam",
+    "confidence": 88,
+    "summary": "TrustGuard evaluated this text via multi-agent heuristic inspection. Detected 4 significant fraud indicators.",
+    "red_flags": [
+      {
+        "id": "rf-urgency",
+        "title": "Urgency Manipulation",
+        "severity": "HIGH",
+        "explanation": "Uses psychological pressure words (immediately) to force hasty decisions without verification.",
+        "tag": "Psychological"
+      },
+      {
+        "id": "rf-payment",
+        "title": "Unverified Payment Demand",
+        "severity": "HIGH",
+        "explanation": "Requests upfront payment or money transfer (pay, upi) under a pretext or processing fee.",
+        "tag": "Financial"
+      },
+      {
+        "id": "rf-impersonation",
+        "title": "Brand / Authority Impersonation",
+        "severity": "HIGH",
+        "explanation": "Claims affiliation with recognized brand or institution (AXIS).",
+        "tag": "Identity Spoofing"
+      },
+      {
+        "id": "rf-prize",
+        "title": "Lottery / Prize Bait",
+        "severity": "HIGH",
+        "explanation": "Promises high rewards, unprompted lottery winnings, or lucrative windfalls requiring upfront fees or data entry.",
+        "tag": "Social Engineering"
+      }
+    ],
+    "evidence": [
+      "Detected artificial urgency phrasing designed to induce panic",
+      "Demands financial transaction or advance processing fee",
+      "Cites recognized institution (AXIS) without legitimate provenance",
+      "Offers unprompted high-value prize or lucky draw reward",
+      "Multiple concurrent fraud indicators detected across urgency, credentials, and domain"
+    ],
+    "recommendations": [
+      "Do not click any embedded links or download attachments from this sender.",
+      "Never disclose your OTP, PIN, password, or UPI MPIN to anyone under any circumstance.",
+      "Do not transfer money or pay \"processing fees\" to unlock accounts or claim deliveries.",
+      "Block the sender on your messaging platform or phone dialer.",
+      "Report the message to national cyber crime authorities (e.g., cybercrime.gov.in / 1930 in India).",
+      "Contact the official customer support directly via their verified website or app."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": true,
+        "manipulationTactics": [
+          "Time Pressure",
+          "Panic Inducement"
+        ],
+        "sentiment": "High Urgency",
+        "summary": "Linguistic analysis detected overt urgency and emotional manipulation tactics."
+      },
+      "urlInvestigator": {
+        "hasUrl": false,
+        "domain": "None detected",
+        "isHttps": false,
+        "domainMismatch": false,
+        "suspiciousTld": false,
+        "summary": "No hostile domain indicators found."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": "AXIS",
+        "financialCoercion": true,
+        "credentialHarvesting": false,
+        "summary": "Sender impersonates AXIS to leverage brand trust for unauthorized data acquisition."
+      },
+      "riskAnalyst": {
+        "baseScore": 80,
+        "ruleSignals": [
+          {
+            "rule": "Urgency Language Manipulation",
+            "points": 15
+          },
+          {
+            "rule": "Unsolicited Financial Demands",
+            "points": 20
+          },
+          {
+            "rule": "Brand / Authority Impersonation",
+            "points": 20
+          },
+          {
+            "rule": "Unsolicited Prize / Reward Bait",
+            "points": 15
+          },
+          {
+            "rule": "Compound Multi-Vector Attack",
+            "points": 10
+          }
+        ],
+        "totalCalculated": 80
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This message is a fraudulent attempt to compromise your accounts or steal funds. Do not respond or click any attached links.",
+        "actionAdvice": "Block the sender, avoid sharing verification codes, and report this communication immediately."
+      }
+    },
+    "timelineMs": 320,
+    "engineUsed": "Rule-Based Engine (Demo / Fallback)"
+  },
+  {
+    "id": "tg-1789194299252-kuz6o",
+    "timestamp": "2026-09-12T06:24:59.252Z",
+    "inputType": "text",
+    "inputData": "Hey, are we still meeting tomorrow at 5 PM for the design review? Let me know if you need to reschedule or share any notes beforehand.",
+    "risk_score": 0,
+    "risk_level": "SAFE",
+    "category": "Legitimate / Safe",
+    "confidence": 88,
+    "summary": "TrustGuard evaluated this text via multi-agent heuristic inspection. Detected 0 significant fraud indicators.",
+    "red_flags": [],
+    "evidence": [],
+    "recommendations": [
+      "No critical threat markers detected. The content matches normal communication patterns.",
+      "As a routine security hygiene practice, always verify sensitive financial requests directly.",
+      "Keep your device security software and mobile operating system updated."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": false,
+        "manipulationTactics": [
+          "None identified"
+        ],
+        "sentiment": "Neutral",
+        "summary": "Tone appears normal with no obvious psychological coercion."
+      },
+      "urlInvestigator": {
+        "hasUrl": false,
+        "domain": "None detected",
+        "isHttps": false,
+        "domainMismatch": false,
+        "suspiciousTld": false,
+        "summary": "No hostile domain indicators found."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": null,
+        "financialCoercion": false,
+        "credentialHarvesting": false,
+        "summary": "No specific corporate brand identity claimed."
+      },
+      "riskAnalyst": {
+        "baseScore": -20,
+        "ruleSignals": [
+          {
+            "rule": "Benign Conversational Marker",
+            "points": -20
+          }
+        ],
+        "totalCalculated": 0
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This communication appears benign, with no typical scam patterns identified.",
+        "actionAdvice": "Verify through official customer support if you suspect any irregularities."
+      }
+    },
+    "timelineMs": 320,
+    "engineUsed": "Rule-Based Engine (Demo / Fallback)"
+  },
+  {
+    "id": "tg-1789194287962-dvis2",
+    "timestamp": "2026-09-12T06:24:47.962Z",
+    "inputType": "text",
+    "inputData": "Your Amazon package delivery could not be completed due to wrong address pin. Pay ₹39 rescheduling charge at: http://amazon-delivery-status.top",
+    "risk_score": 100,
+    "risk_level": "CRITICAL",
+    "category": "Delivery Scam",
+    "confidence": 88,
+    "summary": "TrustGuard evaluated this text via multi-agent heuristic inspection. Detected 4 significant fraud indicators.",
+    "red_flags": [
+      {
+        "id": "rf-creds",
+        "title": "Credential Harvesting Request",
+        "severity": "CRITICAL",
+        "explanation": "Demands confidential security tokens or credentials (pin). Legitimate organizations never request your OTP or PIN.",
+        "tag": "Data Theft"
+      },
+      {
+        "id": "rf-payment",
+        "title": "Unverified Payment Demand",
+        "severity": "HIGH",
+        "explanation": "Requests upfront payment or money transfer (pay) under a pretext or processing fee.",
+        "tag": "Financial"
+      },
+      {
+        "id": "rf-impersonation",
+        "title": "Brand / Authority Impersonation",
+        "severity": "HIGH",
+        "explanation": "Claims affiliation with recognized brand or institution (AMAZON).",
+        "tag": "Identity Spoofing"
+      },
+      {
+        "id": "rf-url",
+        "title": "Deceptive or High-Risk Link",
+        "severity": "CRITICAL",
+        "explanation": "Link exhibits high-risk indicators (High-risk TLD). Likely designed to mimic official portals to harvest credentials.",
+        "tag": "Phishing Link"
+      }
+    ],
+    "evidence": [
+      "Requests user password, PIN, or one-time verification code",
+      "Demands financial transaction or advance processing fee",
+      "Cites recognized institution (AMAZON) without legitimate provenance",
+      "URL contains suspicious attributes: High-risk TLD",
+      "Multiple concurrent fraud indicators detected across urgency, credentials, and domain"
+    ],
+    "recommendations": [
+      "Do not click any embedded links or download attachments from this sender.",
+      "Never disclose your OTP, PIN, password, or UPI MPIN to anyone under any circumstance.",
+      "Do not transfer money or pay \"processing fees\" to unlock accounts or claim deliveries.",
+      "Block the sender on your messaging platform or phone dialer.",
+      "Report the message to national cyber crime authorities (e.g., cybercrime.gov.in / 1930 in India).",
+      "Contact the official customer support directly via their verified website or app."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": false,
+        "manipulationTactics": [
+          "None identified"
+        ],
+        "sentiment": "Neutral",
+        "summary": "Tone appears normal with no obvious psychological coercion."
+      },
+      "urlInvestigator": {
+        "hasUrl": true,
+        "domain": "http://amazon-delivery-status.top",
+        "isHttps": false,
+        "domainMismatch": true,
+        "suspiciousTld": true,
+        "summary": "URL points to an unofficial or spoofed domain designed to deceive users."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": "AMAZON",
+        "financialCoercion": true,
+        "credentialHarvesting": true,
+        "summary": "Sender impersonates AMAZON to leverage brand trust for unauthorized data acquisition."
+      },
+      "riskAnalyst": {
+        "baseScore": 100,
+        "ruleSignals": [
+          {
+            "rule": "Credential Harvesting Attempt",
+            "points": 25
+          },
+          {
+            "rule": "Unsolicited Financial Demands",
+            "points": 20
+          },
+          {
+            "rule": "Brand / Authority Impersonation",
+            "points": 20
+          },
+          {
+            "rule": "Suspicious Domain / Link Detected",
+            "points": 25
+          },
+          {
+            "rule": "Compound Multi-Vector Attack",
+            "points": 10
+          }
+        ],
+        "totalCalculated": 100
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This message is a fraudulent attempt to compromise your accounts or steal funds. Do not respond or click any attached links.",
+        "actionAdvice": "Block the sender, avoid sharing verification codes, and report this communication immediately."
+      }
+    },
+    "timelineMs": 320,
+    "engineUsed": "Rule-Based Engine (Demo / Fallback)"
+  },
+  {
+    "id": "tg-1789145591446-uvza1",
+    "timestamp": "2026-09-11T16:53:11.446Z",
+    "inputType": "text",
+    "inputData": "URGENT! Your SBI account will be blocked today. Complete KYC immediately at https://sbi-verification-update-kyc.com/login",
+    "risk_score": 85,
+    "risk_level": "HIGH",
+    "category": "KYC Scam",
+    "confidence": 85,
+    "summary": "TrustGuard evaluated this text via our local rule-based engine. Multiple threat indicators were identified.",
+    "red_flags": [
+      {
+        "id": "rf-urgency",
+        "title": "Urgency Manipulation",
+        "severity": "HIGH",
+        "explanation": "Uses psychological pressure words (urgent, immediately, blocked today) to force hasty decisions without verification.",
+        "tag": "Psychological"
+      },
+      {
+        "id": "rf-impersonation",
+        "title": "Brand / Authority Impersonation",
+        "severity": "HIGH",
+        "explanation": "Claims affiliation with recognized brand or institution (SBI).",
+        "tag": "Identity Spoofing"
+      },
+      {
+        "id": "rf-kyc",
+        "title": "Urgent KYC Verification Pretext",
+        "severity": "HIGH",
+        "explanation": "Uses KYC / PAN / Aadhaar compliance as a fraudulent pretext to extract confidential identity documents.",
+        "tag": "KYC Fraud"
+      },
+      {
+        "id": "rf-url",
+        "title": "Deceptive or High-Risk Link",
+        "severity": "CRITICAL",
+        "explanation": "Link exhibits high-risk indicators (Deceptive domain structure). Likely designed to mimic official portals to harvest credentials.",
+        "tag": "Phishing Link"
+      }
+    ],
+    "evidence": [
+      "Detected artificial urgency phrasing designed to induce panic",
+      "Cites recognized institution (SBI) without legitimate provenance",
+      "Exploits regulatory KYC compliance as an urgency trigger",
+      "URL contains suspicious attributes: Deceptive domain structure",
+      "Multiple concurrent fraud indicators detected across urgency, credentials, and domain"
+    ],
+    "recommendations": [
+      "Do not click any embedded links or download attachments from this sender.",
+      "Never disclose your OTP, PIN, password, or UPI MPIN to anyone under any circumstance.",
+      "Do not transfer money or pay \"processing fees\" to unlock accounts or claim deliveries.",
+      "Block the sender on your messaging platform or phone dialer.",
+      "Report the message to national cyber crime authorities (e.g., cybercrime.gov.in / 1930 in India).",
+      "Contact the official customer support directly via their verified website or app."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": true,
+        "manipulationTactics": [
+          "Time Pressure",
+          "Panic Inducement"
+        ],
+        "sentiment": "High Urgency",
+        "summary": "Linguistic analysis detected overt urgency and emotional manipulation tactics."
+      },
+      "urlInvestigator": {
+        "hasUrl": true,
+        "domain": "https://sbi-verification-update-kyc.com/login",
+        "isHttps": true,
+        "domainMismatch": true,
+        "suspiciousTld": true,
+        "summary": "URL points to an unofficial or spoofed domain designed to deceive users."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": "SBI",
+        "financialCoercion": false,
+        "credentialHarvesting": false,
+        "summary": "Sender impersonates SBI to leverage brand trust for unauthorized data acquisition."
+      },
+      "riskAnalyst": {
+        "baseScore": 85,
+        "ruleSignals": [
+          {
+            "rule": "Urgency Language Manipulation",
+            "points": 15
+          },
+          {
+            "rule": "Brand / Authority Impersonation",
+            "points": 20
+          },
+          {
+            "rule": "KYC Verification Pretext",
+            "points": 15
+          },
+          {
+            "rule": "Suspicious Domain / Link Detected",
+            "points": 25
+          },
+          {
+            "rule": "Compound Multi-Vector Attack",
+            "points": 10
+          }
+        ],
+        "totalCalculated": 85
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This message is a fraudulent attempt to compromise your accounts or steal funds. Do not respond or click any attached links.",
+        "actionAdvice": "Block the sender, avoid sharing verification codes, and report this communication immediately."
+      }
+    },
+    "timelineMs": 6881,
+    "engineUsed": "Rule-Based Engine (Demo / Fallback)"
+  },
+  {
+    "id": "seed-01",
+    "timestamp": "2026-09-11T16:27:53.612Z",
+    "inputType": "text",
+    "inputData": "URGENT! Your SBI account will be blocked today. Complete KYC immediately at https://sbi-verification-update-kyc.com/login",
+    "risk_score": 96,
+    "risk_level": "CRITICAL",
+    "category": "Phishing",
+    "confidence": 96,
+    "summary": "High-severity banking impersonation phishing attack. Utilizes artificial account suspension urgency to manipulate user into clicking an unauthorized fake banking portal.",
+    "red_flags": [
+      {
+        "id": "rf-sbi-1",
+        "title": "Urgency Manipulation",
+        "severity": "HIGH",
+        "explanation": "Threatens immediate same-day account block to induce panic.",
+        "tag": "Psychological"
+      },
+      {
+        "id": "rf-sbi-2",
+        "title": "Brand Impersonation (State Bank of India)",
+        "severity": "HIGH",
+        "explanation": "Claims provenance from SBI without official domain authentication.",
+        "tag": "Identity Spoofing"
+      },
+      {
+        "id": "rf-sbi-3",
+        "title": "Deceptive Phishing URL",
+        "severity": "CRITICAL",
+        "explanation": "Domain uses deceptive naming structure (sbi-verification-update-kyc.com) rather than sbi.co.in.",
+        "tag": "Phishing Link"
+      },
+      {
+        "id": "rf-sbi-4",
+        "title": "Credential Harvesting Risk",
+        "severity": "CRITICAL",
+        "explanation": "Points to an unverified external login portal targeting net-banking passwords and OTPs.",
+        "tag": "Data Theft"
+      }
+    ],
+    "evidence": [
+      "Threatens immediate account block within 24 hours",
+      "Unofficial domain (sbi-verification-update-kyc.com) mimics SBI",
+      "Requests urgent KYC update via unverified external URL"
+    ],
+    "recommendations": [
+      "Do not click the link or input credentials.",
+      "Never share your net-banking password or OTP with anyone.",
+      "Report the phishing URL to report.phishing@sbi.co.in and national cyber crime reporting portal.",
+      "Block the sender number or email address immediately."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": true,
+        "manipulationTactics": [
+          "Urgency Coercion",
+          "Fear of Asset Freeze"
+        ],
+        "sentiment": "High Urgency / Coercive",
+        "summary": "Detected acute urgency phrasing designed to disable critical verification reflexes."
+      },
+      "urlInvestigator": {
+        "hasUrl": true,
+        "domain": "sbi-verification-update-kyc.com",
+        "isHttps": true,
+        "domainMismatch": true,
+        "suspiciousTld": false,
+        "summary": "Domain registered recently; mismatched against legitimate State Bank of India primary infrastructure."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": "STATE BANK OF INDIA",
+        "financialCoercion": true,
+        "credentialHarvesting": true,
+        "summary": "Clear attempt to exploit institutional trust to siphon banking credentials."
+      },
+      "riskAnalyst": {
+        "baseScore": 95,
+        "ruleSignals": [
+          {
+            "rule": "Urgency Language Manipulation",
+            "points": 15
+          },
+          {
+            "rule": "Brand Impersonation",
+            "points": 20
+          },
+          {
+            "rule": "Deceptive Phishing Domain",
+            "points": 25
+          },
+          {
+            "rule": "KYC Pretext",
+            "points": 15
+          },
+          {
+            "rule": "Compound Threat Vector",
+            "points": 20
+          }
+        ],
+        "totalCalculated": 96
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This is a dangerous fake message attempting to steal your SBI bank login and money. Do not open the link.",
+        "actionAdvice": "Block sender immediately and report to official cyber crime cell."
+      }
+    },
+    "timelineMs": 412,
+    "engineUsed": "Gemini 3.8 Flash (AI Panel)"
+  },
+  {
+    "id": "seed-02",
+    "timestamp": "2026-09-11T15:17:53.612Z",
+    "inputType": "text",
+    "inputData": "Congratulations! You have won ₹25,00,000 in the lucky draw. Pay ₹4,999 processing fee to claim your prize to UPI ID: win@okaxis",
+    "risk_score": 88,
+    "risk_level": "HIGH",
+    "category": "Lottery/Prize Scam",
+    "confidence": 94,
+    "summary": "Classic advance-fee lottery fraud. Promises huge unprompted windfall while demanding an upfront non-refundable fee.",
+    "red_flags": [
+      {
+        "id": "rf-lottery-1",
+        "title": "Unsolicited Prize / Lottery Bait",
+        "severity": "HIGH",
+        "explanation": "Offers 25 Lakh Rupees without prior participation in any verified lottery.",
+        "tag": "Social Engineering"
+      },
+      {
+        "id": "rf-lottery-2",
+        "title": "Advance Fee Demanded",
+        "severity": "HIGH",
+        "explanation": "Requests ₹4,999 processing fee before funds release — legitimate lotteries never demand advance processing fees.",
+        "tag": "Financial Fraud"
+      },
+      {
+        "id": "rf-lottery-3",
+        "title": "Personal UPI ID Channel",
+        "severity": "MEDIUM",
+        "explanation": "Directs payments to an informal UPI VPA rather than corporate escrow.",
+        "tag": "UPI Fraud"
+      }
+    ],
+    "evidence": [
+      "Promises unearned high-value monetary windfall (₹25,00,000)",
+      "Demands advance processing payment of ₹4,999",
+      "Directs funds to personal UPI identifier"
+    ],
+    "recommendations": [
+      "Do not transfer any money or processing fees.",
+      "Never send money to claim prizes or lottery winnings.",
+      "Block the UPI ID and sender on Google Pay / PhonePe / Paytm.",
+      "Report the UPI VPA to the National Payments Corporation of India (NPCI)."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": false,
+        "manipulationTactics": [
+          "Greed Bait",
+          "Artificial Windfall"
+        ],
+        "sentiment": "Overly Enthusiastic Bait",
+        "summary": "Exploits lottery excitement to disguise an advance-fee fraud scheme."
+      },
+      "urlInvestigator": {
+        "hasUrl": false,
+        "domain": "None",
+        "isHttps": false,
+        "domainMismatch": false,
+        "suspiciousTld": false,
+        "summary": "No external web address provided; transactions routed via UPI."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": null,
+        "financialCoercion": true,
+        "credentialHarvesting": false,
+        "summary": "Classic 419 advance-fee fraud adapted for domestic UPI payment rails."
+      },
+      "riskAnalyst": {
+        "baseScore": 85,
+        "ruleSignals": [
+          {
+            "rule": "Unsolicited Prize Bait",
+            "points": 25
+          },
+          {
+            "rule": "Advance Payment Request",
+            "points": 25
+          },
+          {
+            "rule": "UPI Diversion",
+            "points": 20
+          },
+          {
+            "rule": "Compound Signals",
+            "points": 18
+          }
+        ],
+        "totalCalculated": 88
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This is a scam. Nobody gives away 25 lakh rupees in a lucky draw, and any request for a processing fee is pure theft.",
+        "actionAdvice": "Ignore the message and do not pay any money."
+      }
+    },
+    "timelineMs": 340,
+    "engineUsed": "Gemini 3.8 Flash (AI Panel)"
+  },
+  {
+    "id": "seed-03",
+    "timestamp": "2026-09-11T13:22:53.612Z",
+    "inputType": "text",
+    "inputData": "Your Amazon package could not be delivered due to incorrect address. Pay ₹39 to reschedule delivery at: http://amazon-delivery-status.top",
+    "risk_score": 84,
+    "risk_level": "HIGH",
+    "category": "Delivery Scam",
+    "confidence": 91,
+    "summary": "Smishing scam impersonating Amazon logistics to capture credit card and banking details via a micro-transaction lure (₹39).",
+    "red_flags": [
+      {
+        "id": "rf-del-1",
+        "title": "Brand Impersonation (Amazon)",
+        "severity": "HIGH",
+        "explanation": "Falsely claims to be Amazon customer delivery operations.",
+        "tag": "Identity Spoofing"
+      },
+      {
+        "id": "rf-del-2",
+        "title": "Micro-Fee Payment Trap",
+        "severity": "HIGH",
+        "explanation": "Demands small ₹39 fee to entice user into entering payment card details on a credential harvester.",
+        "tag": "Financial Trap"
+      },
+      {
+        "id": "rf-del-3",
+        "title": "Suspicious TLD & Insecure Protocol",
+        "severity": "CRITICAL",
+        "explanation": "Uses unencrypted HTTP with high-risk .top extension (amazon-delivery-status.top).",
+        "tag": "Phishing Link"
+      }
+    ],
+    "evidence": [
+      "Unsolicited package delivery failure alert",
+      "Unencrypted HTTP protocol used",
+      "High-risk .top top-level domain spoofing Amazon"
+    ],
+    "recommendations": [
+      "Do not click the link or attempt the ₹39 payment.",
+      "Check your actual orders directly within the official Amazon app.",
+      "Block the sender number.",
+      "Report the malicious link to stop-spoofing@amazon.com."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": true,
+        "manipulationTactics": [
+          "Loss Aversion",
+          "Delivery Disruption"
+        ],
+        "sentiment": "Urgent Alert",
+        "summary": "Uses common parcel delivery context to create an urgent need for action."
+      },
+      "urlInvestigator": {
+        "hasUrl": true,
+        "domain": "amazon-delivery-status.top",
+        "isHttps": false,
+        "domainMismatch": true,
+        "suspiciousTld": true,
+        "summary": "Clear fake domain using .top extension and unencrypted HTTP connection."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": "AMAZON",
+        "financialCoercion": true,
+        "credentialHarvesting": true,
+        "summary": "Targeted smishing campaign targeting consumer shopping expectations."
+      },
+      "riskAnalyst": {
+        "baseScore": 82,
+        "ruleSignals": [
+          {
+            "rule": "Brand Impersonation",
+            "points": 20
+          },
+          {
+            "rule": "Payment Request",
+            "points": 15
+          },
+          {
+            "rule": "Suspicious Domain / TLD",
+            "points": 25
+          },
+          {
+            "rule": "Unencrypted HTTP",
+            "points": 15
+          },
+          {
+            "rule": "Compound Risk",
+            "points": 9
+          }
+        ],
+        "totalCalculated": 84
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "Fake Amazon parcel notice trying to trick you into entering card details under the guise of a ₹39 redelivery charge.",
+        "actionAdvice": "Verify your shipments inside your real Amazon app instead."
+      }
+    },
+    "timelineMs": 385,
+    "engineUsed": "Gemini 3.8 Flash (AI Panel)"
+  },
+  {
+    "id": "seed-04",
+    "timestamp": "2026-09-11T10:52:53.612Z",
+    "inputType": "text",
+    "inputData": "Your friend Rahul is stuck in hospital and needs money urgently. Please send ₹5,000 to this UPI ID: rahul.aid@upi immediately.",
+    "risk_score": 68,
+    "risk_level": "SUSPICIOUS",
+    "category": "Bank/UPI Fraud",
+    "confidence": 85,
+    "summary": "Potential social engineering impersonation scam. Uses an alleged medical emergency to bypass cognitive scrutiny.",
+    "red_flags": [
+      {
+        "id": "rf-soc-1",
+        "title": "Emergency Social Engineering",
+        "severity": "HIGH",
+        "explanation": "Invokes hospital and medical crisis to bypass rational verification.",
+        "tag": "Social Engineering"
+      },
+      {
+        "id": "rf-soc-2",
+        "title": "Unverified Personal UPI Request",
+        "severity": "MEDIUM",
+        "explanation": "Requests immediate direct fund transfer without verifiable audio/video identity.",
+        "tag": "Financial"
+      }
+    ],
+    "evidence": [
+      "Emotional emergency manipulation",
+      "Direct pressure for immediate money transfer",
+      "Unverified communication channel"
+    ],
+    "recommendations": [
+      "Call your friend directly on their known phone number before transferring any funds.",
+      "Do not rely solely on text or messaging platform identity.",
+      "Confirm with family members or common acquaintances."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": true,
+        "manipulationTactics": [
+          "Emergency Pressure",
+          "Emotional Coercion"
+        ],
+        "sentiment": "High Urgency / Panic",
+        "summary": "Message mimics genuine friend in distress to provoke instant sympathetic action."
+      },
+      "urlInvestigator": {
+        "hasUrl": false,
+        "domain": "None",
+        "isHttps": false,
+        "domainMismatch": false,
+        "suspiciousTld": false,
+        "summary": "No links attached."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": "PERSONAL ACQUAINTANCE",
+        "financialCoercion": true,
+        "credentialHarvesting": false,
+        "summary": "Friend-in-distress fraud pattern frequently seen on hacked social media or WhatsApp accounts."
+      },
+      "riskAnalyst": {
+        "baseScore": 65,
+        "ruleSignals": [
+          {
+            "rule": "Emotional Coercion",
+            "points": 25
+          },
+          {
+            "rule": "Immediate Payment Request",
+            "points": 20
+          },
+          {
+            "rule": "Unverified Identity",
+            "points": 23
+          }
+        ],
+        "totalCalculated": 68
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "Always verify emergencies by voice calling your friend directly before sending funds.",
+        "actionAdvice": "Call your friend on their real phone number to verify."
+      }
+    },
+    "timelineMs": 295,
+    "engineUsed": "Gemini 3.8 Flash (AI Panel)"
+  },
+  {
+    "id": "seed-05",
+    "timestamp": "2026-09-11T07:52:53.612Z",
+    "inputType": "text",
+    "inputData": "Hey, are we still meeting tomorrow at 5 PM for the design review? Let me know if you need to reschedule.",
+    "risk_score": 8,
+    "risk_level": "SAFE",
+    "category": "Legitimate / Safe",
+    "confidence": 99,
+    "summary": "Standard conversational communication. No phishing, credential harvesting, urgent financial coercion, or suspicious links detected.",
+    "red_flags": [],
+    "evidence": [
+      "Natural, non-coercive conversational tone",
+      "No requests for credentials, money, or sensitive info",
+      "No suspicious URLs or attachments"
+    ],
+    "recommendations": [
+      "Content exhibits no scam indicators.",
+      "Safe to respond according to your schedule."
+    ],
+    "agents": {
+      "scamAnalyst": {
+        "urgencyDetected": false,
+        "manipulationTactics": [],
+        "sentiment": "Friendly / Normal",
+        "summary": "Benign interpersonal communication."
+      },
+      "urlInvestigator": {
+        "hasUrl": false,
+        "domain": "None",
+        "isHttps": false,
+        "domainMismatch": false,
+        "suspiciousTld": false,
+        "summary": "No links provided."
+      },
+      "contextAnalyst": {
+        "impersonationTarget": null,
+        "financialCoercion": false,
+        "credentialHarvesting": false,
+        "summary": "Meeting scheduling context with mutual respect for time."
+      },
+      "riskAnalyst": {
+        "baseScore": 0,
+        "ruleSignals": [
+          {
+            "rule": "Benign Conversational Marker",
+            "points": -10
+          }
+        ],
+        "totalCalculated": 8
+      },
+      "responseAgent": {
+        "plainLanguageSummary": "This message is completely safe. It contains no threat markers or fraud indicators.",
+        "actionAdvice": "Safe to reply."
+      }
+    },
+    "timelineMs": 240,
+    "engineUsed": "Gemini 3.8 Flash (AI Panel)"
+  }
+]
